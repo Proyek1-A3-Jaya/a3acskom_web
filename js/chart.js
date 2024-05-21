@@ -1,4 +1,4 @@
-fetch('mouse.json')
+fetch('hargaRerataan.json')
   .then(response => response.json())
   .then(data => {
     createChart(data);
@@ -6,10 +6,11 @@ fetch('mouse.json')
   .catch(error => console.error('Error:', error));
 
 function createChart(data) {
-  const labels = data.map(item => item.merek);
-  const chartData = data.map(item => item.harga);
+  // Ekstrak label (nama merk) dan data (harga)
+  const labels = Object.keys(data);
+  const chartData = Object.values(data);
 
-  const ctx = document.getElementById('myChart');
+  const ctx = document.getElementById('myChart').getContext('2d');
 
   new Chart(ctx, {
     type: 'bar',
@@ -18,13 +19,24 @@ function createChart(data) {
       datasets: [{
         label: 'Harga Mouse',
         data: chartData,
-        borderWidth: 1
+
       }]
     },
     options: {
+      indexAxis: 'y', // Membuat batang horizontal
       scales: {
+        x: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Harga'
+          }
+        },
         y: {
-          beginAtZero: true
+          title: {
+            display: true,
+            text: 'Nama Merk'
+          }
         }
       }
     }
