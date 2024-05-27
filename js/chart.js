@@ -6,23 +6,27 @@ function fetchDataAndCreateChart(url, chartId, chartLabel, sliderId, labelId, da
     .then(data => {
       allData[dataKey] = data; // Menyimpan data pada objek allData dengan key yang sesuai
       createChart(data, chartId, chartLabel, sliderId, labelId, dataKey);
-      
-      // Mengatur nilai max dan value slider sesuai dengan jumlah merek dalam data
+
+      // Mengatur nilai min, max, dan value slider sesuai dengan jumlah merek dalam data
       const numBrands = data.length;
       const slider = document.getElementById(sliderId);
+      slider.min = 1;
       slider.max = numBrands;
-      slider.value = numBrands;
+      slider.value = 10; // Set nilai awal slider ke 10
       
       // Mengatur label slider sesuai dengan nilai awal slider
       const label = document.getElementById(labelId);
-      label.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
+      label.textContent = `Jumlah merek yang ditampilkan: 10`;
     })
     .catch(error => console.error('Error:', error));
 }
 
 function createChart(data, chartId, chartLabel, sliderId, labelId, dataKey) {
-  const labels = data.map(item => item.merek);
-  const chartData = data.map(item => item.harga_rata_rata);
+  const sortedData = data.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
+  const initialData = sortedData.slice(0, 10); // Menampilkan hanya 10 merek pertama
+
+  const labels = initialData.map(item => item.merek);
+  const chartData = initialData.map(item => item.harga_rata_rata);
 
   const ctx = document.getElementById(chartId).getContext('2d');
   const chart = new Chart(ctx, {
@@ -63,7 +67,6 @@ function createChart(data, chartId, chartLabel, sliderId, labelId, dataKey) {
   filterSlider.addEventListener('input', function() {
     const numBrands = this.value;
     filterLabel.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
-    const sortedData = allData[dataKey].sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
     const filteredData = sortedData.slice(0, numBrands);
     updateChart(chart, filteredData);
   });
