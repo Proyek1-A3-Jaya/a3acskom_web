@@ -1,0 +1,594 @@
+[
+  {
+    "merek": "Lainnya",
+    "jumlah_produk": 1348,
+    "terjual": 247324,
+    "harga_tertinggi": 5900000,
+    "harga_terendah": 9000,
+    "harga_rata_rata": 366313.87
+  },
+  {
+    "merek": "Venom",
+    "jumlah_produk": 2,
+    "terjual": 1250,
+    "harga_tertinggi": 185000,
+    "harga_terendah": 185000,
+    "harga_rata_rata": 185000.0
+  },
+  {
+    "merek": "Lea",
+    "jumlah_produk": 64,
+    "terjual": 5492,
+    "harga_tertinggi": 3500000,
+    "harga_terendah": 35000,
+    "harga_rata_rata": 470156.23
+  },
+  {
+    "merek": "UGREEN",
+    "jumlah_produk": 58,
+    "terjual": 11345,
+    "harga_tertinggi": 499000,
+    "harga_terendah": 89000,
+    "harga_rata_rata": 150987.93
+  },
+  {
+    "merek": "Nylon",
+    "jumlah_produk": 66,
+    "terjual": 8645,
+    "harga_tertinggi": 1999000,
+    "harga_terendah": 19500,
+    "harga_rata_rata": 370128.77
+  },
+  {
+    "merek": "Lenovo",
+    "jumlah_produk": 136,
+    "terjual": 35799,
+    "harga_tertinggi": 1450000,
+    "harga_terendah": 19000,
+    "harga_rata_rata": 228998.51
+  },
+  {
+    "merek": "Sydney",
+    "jumlah_produk": 2,
+    "terjual": 3000,
+    "harga_tertinggi": 69000,
+    "harga_terendah": 69000,
+    "harga_rata_rata": 69000.0
+  },
+  {
+    "merek": "Flashee",
+    "jumlah_produk": 1,
+    "terjual": 100,
+    "harga_tertinggi": 55000,
+    "harga_terendah": 55000,
+    "harga_rata_rata": 55000.0
+  },
+  {
+    "merek": "Carbon",
+    "jumlah_produk": 17,
+    "terjual": 1002,
+    "harga_tertinggi": 375060,
+    "harga_terendah": 80000,
+    "harga_rata_rata": 120797.65
+  },
+  {
+    "merek": "Remoid",
+    "jumlah_produk": 2,
+    "terjual": 140,
+    "harga_tertinggi": 138000,
+    "harga_terendah": 135000,
+    "harga_rata_rata": 136500.0
+  },
+  {
+    "merek": "Deli",
+    "jumlah_produk": 7,
+    "terjual": 1358,
+    "harga_tertinggi": 148824,
+    "harga_terendah": 39000,
+    "harga_rata_rata": 87069.71
+  },
+  {
+    "merek": "HAWEEL",
+    "jumlah_produk": 3,
+    "terjual": 378,
+    "harga_tertinggi": 199000,
+    "harga_terendah": 46000,
+    "harga_rata_rata": 123333.33
+  },
+  {
+    "merek": "Ryota",
+    "jumlah_produk": 1,
+    "terjual": 250,
+    "harga_tertinggi": 225000,
+    "harga_terendah": 225000,
+    "harga_rata_rata": 225000.0
+  },
+  {
+    "merek": "MOVIO",
+    "jumlah_produk": 5,
+    "terjual": 4810,
+    "harga_tertinggi": 79000,
+    "harga_terendah": 59000,
+    "harga_rata_rata": 63000.0
+  },
+  {
+    "merek": "DNAC",
+    "jumlah_produk": 2,
+    "terjual": 37,
+    "harga_tertinggi": 315000,
+    "harga_terendah": 295000,
+    "harga_rata_rata": 305000.0
+  },
+  {
+    "merek": "MINISO",
+    "jumlah_produk": 2,
+    "terjual": 750,
+    "harga_tertinggi": 104900,
+    "harga_terendah": 79900,
+    "harga_rata_rata": 92400.0
+  },
+  {
+    "merek": "WiWU",
+    "jumlah_produk": 26,
+    "terjual": 722,
+    "harga_tertinggi": 499000,
+    "harga_terendah": 169000,
+    "harga_rata_rata": 299486.81
+  },
+  {
+    "merek": "HP",
+    "jumlah_produk": 58,
+    "terjual": 10344,
+    "harga_tertinggi": 799000,
+    "harga_terendah": 30000,
+    "harga_rata_rata": 228137.97
+  },
+  {
+    "merek": "ASUS",
+    "jumlah_produk": 63,
+    "terjual": 10106,
+    "harga_tertinggi": 1290000,
+    "harga_terendah": 27500,
+    "harga_rata_rata": 226239.35
+  },
+  {
+    "merek": "Oxford",
+    "jumlah_produk": 17,
+    "terjual": 3306,
+    "harga_tertinggi": 346500,
+    "harga_terendah": 57100,
+    "harga_rata_rata": 191011.76
+  },
+  {
+    "merek": "Hima",
+    "jumlah_produk": 1,
+    "terjual": 500,
+    "harga_tertinggi": 65000,
+    "harga_terendah": 65000,
+    "harga_rata_rata": 65000.0
+  },
+  {
+    "merek": "KINMAC",
+    "jumlah_produk": 106,
+    "terjual": 7686,
+    "harga_tertinggi": 390000,
+    "harga_terendah": 174000,
+    "harga_rata_rata": 274430.19
+  },
+  {
+    "merek": "MAHOO",
+    "jumlah_produk": 5,
+    "terjual": 320,
+    "harga_tertinggi": 224000,
+    "harga_terendah": 99600,
+    "harga_rata_rata": 173520.0
+  },
+  {
+    "merek": "Apirily",
+    "jumlah_produk": 1,
+    "terjual": 50,
+    "harga_tertinggi": 160000,
+    "harga_terendah": 160000,
+    "harga_rata_rata": 160000.0
+  },
+  {
+    "merek": "Arctic Hunter",
+    "jumlah_produk": 51,
+    "terjual": 2555,
+    "harga_tertinggi": 1199000,
+    "harga_terendah": 229000,
+    "harga_rata_rata": 433915.69
+  },
+  {
+    "merek": "Tomtoc",
+    "jumlah_produk": 13,
+    "terjual": 429,
+    "harga_tertinggi": 1819000,
+    "harga_terendah": 225000,
+    "harga_rata_rata": 856692.31
+  },
+  {
+    "merek": "Mark Ryden",
+    "jumlah_produk": 62,
+    "terjual": 5823,
+    "harga_tertinggi": 1199000,
+    "harga_terendah": 199000,
+    "harga_rata_rata": 493837.1
+  },
+  {
+    "merek": "Copper",
+    "jumlah_produk": 15,
+    "terjual": 4193,
+    "harga_tertinggi": 339000,
+    "harga_terendah": 207900,
+    "harga_rata_rata": 278060.0
+  },
+  {
+    "merek": "Norwich",
+    "jumlah_produk": 4,
+    "terjual": 12000,
+    "harga_tertinggi": 99000,
+    "harga_terendah": 99000,
+    "harga_rata_rata": 99000.0
+  },
+  {
+    "merek": "Loops",
+    "jumlah_produk": 3,
+    "terjual": 41,
+    "harga_tertinggi": 449000,
+    "harga_terendah": 299000,
+    "harga_rata_rata": 382333.33
+  },
+  {
+    "merek": "DELL",
+    "jumlah_produk": 32,
+    "terjual": 4122,
+    "harga_tertinggi": 999000,
+    "harga_terendah": 30000,
+    "harga_rata_rata": 260729.62
+  },
+  {
+    "merek": "BASEUS",
+    "jumlah_produk": 7,
+    "terjual": 4360,
+    "harga_tertinggi": 299000,
+    "harga_terendah": 99000,
+    "harga_rata_rata": 167675.71
+  },
+  {
+    "merek": "Copenhagen",
+    "jumlah_produk": 3,
+    "terjual": 3000,
+    "harga_tertinggi": 439200,
+    "harga_terendah": 439200,
+    "harga_rata_rata": 439200.0
+  },
+  {
+    "merek": "Aldier",
+    "jumlah_produk": 2,
+    "terjual": 2000,
+    "harga_tertinggi": 125000,
+    "harga_terendah": 125000,
+    "harga_rata_rata": 125000.0
+  },
+  {
+    "merek": "Bange",
+    "jumlah_produk": 55,
+    "terjual": 7748,
+    "harga_tertinggi": 1190000,
+    "harga_terendah": 275000,
+    "harga_rata_rata": 470222.64
+  },
+  {
+    "merek": "Huxley",
+    "jumlah_produk": 3,
+    "terjual": 2001,
+    "harga_tertinggi": 725000,
+    "harga_terendah": 95000,
+    "harga_rata_rata": 305000.0
+  },
+  {
+    "merek": "Huawei",
+    "jumlah_produk": 8,
+    "terjual": 222,
+    "harga_tertinggi": 690000,
+    "harga_terendah": 149000,
+    "harga_rata_rata": 404625.0
+  },
+  {
+    "merek": "Scratch",
+    "jumlah_produk": 2,
+    "terjual": 91,
+    "harga_tertinggi": 199000,
+    "harga_terendah": 95000,
+    "harga_rata_rata": 147000.0
+  },
+  {
+    "merek": "SINNO",
+    "jumlah_produk": 1,
+    "terjual": 250,
+    "harga_tertinggi": 159000,
+    "harga_terendah": 159000,
+    "harga_rata_rata": 159000.0
+  },
+  {
+    "merek": "M16",
+    "jumlah_produk": 2,
+    "terjual": 1100,
+    "harga_tertinggi": 78000,
+    "harga_terendah": 78000,
+    "harga_rata_rata": 78000.0
+  },
+  {
+    "merek": "Moft",
+    "jumlah_produk": 3,
+    "terjual": 1109,
+    "harga_tertinggi": 850000,
+    "harga_terendah": 550000,
+    "harga_rata_rata": 666333.33
+  },
+  {
+    "merek": "ThinkPad",
+    "jumlah_produk": 2,
+    "terjual": 32,
+    "harga_tertinggi": 460000,
+    "harga_terendah": 135000,
+    "harga_rata_rata": 297500.0
+  },
+  {
+    "merek": "Fieri",
+    "jumlah_produk": 1,
+    "terjual": 1000,
+    "harga_tertinggi": 169000,
+    "harga_terendah": 169000,
+    "harga_rata_rata": 169000.0
+  },
+  {
+    "merek": "Itel",
+    "jumlah_produk": 1,
+    "terjual": 100,
+    "harga_tertinggi": 20000,
+    "harga_terendah": 20000,
+    "harga_rata_rata": 20000.0
+  },
+  {
+    "merek": "Outwalk",
+    "jumlah_produk": 12,
+    "terjual": 209,
+    "harga_tertinggi": 1093000,
+    "harga_terendah": 399000,
+    "harga_rata_rata": 657500.0
+  },
+  {
+    "merek": "Acer",
+    "jumlah_produk": 49,
+    "terjual": 7593,
+    "harga_tertinggi": 575000,
+    "harga_terendah": 30000,
+    "harga_rata_rata": 156993.84
+  },
+  {
+    "merek": "Osprey",
+    "jumlah_produk": 2,
+    "terjual": 130,
+    "harga_tertinggi": 1699000,
+    "harga_terendah": 1519000,
+    "harga_rata_rata": 1609000.0
+  },
+  {
+    "merek": "Smatree",
+    "jumlah_produk": 6,
+    "terjual": 246,
+    "harga_tertinggi": 1248000,
+    "harga_terendah": 498000,
+    "harga_rata_rata": 973000.0
+  },
+  {
+    "merek": "Tumi",
+    "jumlah_produk": 1,
+    "terjual": 40,
+    "harga_tertinggi": 2399000,
+    "harga_terendah": 2399000,
+    "harga_rata_rata": 2399000.0
+  },
+  {
+    "merek": "Axioo",
+    "jumlah_produk": 2,
+    "terjual": 27,
+    "harga_tertinggi": 30000,
+    "harga_terendah": 25000,
+    "harga_rata_rata": 27500.0
+  },
+  {
+    "merek": "CopTon",
+    "jumlah_produk": 1,
+    "terjual": 23,
+    "harga_tertinggi": 225000,
+    "harga_terendah": 225000,
+    "harga_rata_rata": 225000.0
+  },
+  {
+    "merek": "YOURKALLE",
+    "jumlah_produk": 3,
+    "terjual": 90,
+    "harga_tertinggi": 539000,
+    "harga_terendah": 499000,
+    "harga_rata_rata": 522333.33
+  },
+  {
+    "merek": "Brinch",
+    "jumlah_produk": 7,
+    "terjual": 409,
+    "harga_tertinggi": 199900,
+    "harga_terendah": 89000,
+    "harga_rata_rata": 143271.43
+  },
+  {
+    "merek": "Large",
+    "jumlah_produk": 6,
+    "terjual": 387,
+    "harga_tertinggi": 1099000,
+    "harga_terendah": 240000,
+    "harga_rata_rata": 624500.0
+  },
+  {
+    "merek": "Bruno Cavalli",
+    "jumlah_produk": 9,
+    "terjual": 3280,
+    "harga_tertinggi": 489300,
+    "harga_terendah": 105000,
+    "harga_rata_rata": 322588.89
+  },
+  {
+    "merek": "Martinversa",
+    "jumlah_produk": 4,
+    "terjual": 5350,
+    "harga_tertinggi": 190000,
+    "harga_terendah": 59000,
+    "harga_rata_rata": 91750.0
+  },
+  {
+    "merek": "Rhodey",
+    "jumlah_produk": 12,
+    "terjual": 826,
+    "harga_tertinggi": 55000,
+    "harga_terendah": 18500,
+    "harga_rata_rata": 41179.08
+  },
+  {
+    "merek": "Fungoofun",
+    "jumlah_produk": 1,
+    "terjual": 10,
+    "harga_tertinggi": 275000,
+    "harga_terendah": 275000,
+    "harga_rata_rata": 275000.0
+  },
+  {
+    "merek": "Palazzo",
+    "jumlah_produk": 6,
+    "terjual": 234,
+    "harga_tertinggi": 162500,
+    "harga_terendah": 85500,
+    "harga_rata_rata": 136416.67
+  },
+  {
+    "merek": "Poddo",
+    "jumlah_produk": 1,
+    "terjual": 50,
+    "harga_tertinggi": 127500,
+    "harga_terendah": 127500,
+    "harga_rata_rata": 127500.0
+  },
+  {
+    "merek": "Savage",
+    "jumlah_produk": 2,
+    "terjual": 25,
+    "harga_tertinggi": 169900,
+    "harga_terendah": 165000,
+    "harga_rata_rata": 167450.0
+  },
+  {
+    "merek": "ABS",
+    "jumlah_produk": 3,
+    "terjual": 535,
+    "harga_tertinggi": 450000,
+    "harga_terendah": 172000,
+    "harga_rata_rata": 355666.67
+  },
+  {
+    "merek": "Polo",
+    "jumlah_produk": 57,
+    "terjual": 18483,
+    "harga_tertinggi": 449000,
+    "harga_terendah": 23000,
+    "harga_rata_rata": 142037.53
+  },
+  {
+    "merek": "Fhea",
+    "jumlah_produk": 1,
+    "terjual": 100,
+    "harga_tertinggi": 199000,
+    "harga_terendah": 199000,
+    "harga_rata_rata": 199000.0
+  },
+  {
+    "merek": "Tictac",
+    "jumlah_produk": 1,
+    "terjual": 250,
+    "harga_tertinggi": 105000,
+    "harga_terendah": 105000,
+    "harga_rata_rata": 105000.0
+  },
+  {
+    "merek": "Freeknight",
+    "jumlah_produk": 10,
+    "terjual": 4589,
+    "harga_tertinggi": 179000,
+    "harga_terendah": 89000,
+    "harga_rata_rata": 142900.0
+  },
+  {
+    "merek": "Alba Project",
+    "jumlah_produk": 1,
+    "terjual": 250,
+    "harga_tertinggi": 193000,
+    "harga_terendah": 193000,
+    "harga_rata_rata": 193000.0
+  },
+  {
+    "merek": "Navy Club",
+    "jumlah_produk": 32,
+    "terjual": 14220,
+    "harga_tertinggi": 589000,
+    "harga_terendah": 109000,
+    "harga_rata_rata": 249187.5
+  },
+  {
+    "merek": "Haiden",
+    "jumlah_produk": 4,
+    "terjual": 4000,
+    "harga_tertinggi": 90000,
+    "harga_terendah": 90000,
+    "harga_rata_rata": 90000.0
+  },
+  {
+    "merek": "Vention",
+    "jumlah_produk": 2,
+    "terjual": 0,
+    "harga_tertinggi": 259000,
+    "harga_terendah": 259000,
+    "harga_rata_rata": 259000.0
+  },
+  {
+    "merek": "Rivacase",
+    "jumlah_produk": 11,
+    "terjual": 357,
+    "harga_tertinggi": 1316000,
+    "harga_terendah": 376000,
+    "harga_rata_rata": 942181.82
+  },
+  {
+    "merek": "Torch",
+    "jumlah_produk": 11,
+    "terjual": 2430,
+    "harga_tertinggi": 389300,
+    "harga_terendah": 134900,
+    "harga_rata_rata": 246494.55
+  },
+  {
+    "merek": "Urban Factor",
+    "jumlah_produk": 7,
+    "terjual": 1614,
+    "harga_tertinggi": 329000,
+    "harga_terendah": 20000,
+    "harga_rata_rata": 222142.86
+  },
+  {
+    "merek": "Samsonite",
+    "jumlah_produk": 2,
+    "terjual": 12,
+    "harga_tertinggi": 1990000,
+    "harga_terendah": 1299000,
+    "harga_rata_rata": 1644500.0
+  }
+]

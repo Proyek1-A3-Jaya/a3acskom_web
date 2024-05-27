@@ -1,0 +1,370 @@
+[
+  {
+    "merek": "Lainnya",
+    "jumlah_produk": 826,
+    "terjual": 235937,
+    "harga_tertinggi": 96500000,
+    "harga_terendah": 1000,
+    "harga_rata_rata": 982122.26
+  },
+  {
+    "merek": "Eyesec",
+    "jumlah_produk": 7,
+    "terjual": 2560,
+    "harga_tertinggi": 299000,
+    "harga_terendah": 91000,
+    "harga_rata_rata": 150428.57
+  },
+  {
+    "merek": "Logitech",
+    "jumlah_produk": 752,
+    "terjual": 227011,
+    "harga_tertinggi": 45248000,
+    "harga_terendah": 500,
+    "harga_rata_rata": 1800273.06
+  },
+  {
+    "merek": "Philips",
+    "jumlah_produk": 35,
+    "terjual": 3242,
+    "harga_tertinggi": 1299000,
+    "harga_terendah": 69900,
+    "harga_rata_rata": 582991.83
+  },
+  {
+    "merek": "Hovercam",
+    "jumlah_produk": 4,
+    "terjual": 0,
+    "harga_tertinggi": 11760000,
+    "harga_terendah": 11760000,
+    "harga_rata_rata": 11760000.0
+  },
+  {
+    "merek": "JETE",
+    "jumlah_produk": 65,
+    "terjual": 9966,
+    "harga_tertinggi": 12999000,
+    "harga_terendah": 149900,
+    "harga_rata_rata": 2432167.69
+  },
+  {
+    "merek": "M-Tech",
+    "jumlah_produk": 82,
+    "terjual": 6434,
+    "harga_tertinggi": 279900,
+    "harga_terendah": 20000,
+    "harga_rata_rata": 177291.34
+  },
+  {
+    "merek": "Xiaovv",
+    "jumlah_produk": 27,
+    "terjual": 11616,
+    "harga_tertinggi": 692000,
+    "harga_terendah": 159000,
+    "harga_rata_rata": 220291.85
+  },
+  {
+    "merek": "Inforce",
+    "jumlah_produk": 15,
+    "terjual": 2236,
+    "harga_tertinggi": 379000,
+    "harga_terendah": 65700,
+    "harga_rata_rata": 182766.67
+  },
+  {
+    "merek": "Streamplify",
+    "jumlah_produk": 7,
+    "terjual": 111,
+    "harga_tertinggi": 985000,
+    "harga_terendah": 940000,
+    "harga_rata_rata": 959285.86
+  },
+  {
+    "merek": "NYK",
+    "jumlah_produk": 177,
+    "terjual": 12796,
+    "harga_tertinggi": 595000,
+    "harga_terendah": 150000,
+    "harga_rata_rata": 375226.67
+  },
+  {
+    "merek": "Razer",
+    "jumlah_produk": 32,
+    "terjual": 1496,
+    "harga_tertinggi": 2399000,
+    "harga_terendah": 595000,
+    "harga_rata_rata": 887937.44
+  },
+  {
+    "merek": "Camtech",
+    "jumlah_produk": 20,
+    "terjual": 7392,
+    "harga_tertinggi": 499000,
+    "harga_terendah": 299000,
+    "harga_rata_rata": 441500.0
+  },
+  {
+    "merek": "MOVIO",
+    "jumlah_produk": 1,
+    "terjual": 2000,
+    "harga_tertinggi": 7500,
+    "harga_terendah": 7500,
+    "harga_rata_rata": 7500.0
+  },
+  {
+    "merek": "SPC",
+    "jumlah_produk": 35,
+    "terjual": 5501,
+    "harga_tertinggi": 250000,
+    "harga_terendah": 25000,
+    "harga_rata_rata": 157582.29
+  },
+  {
+    "merek": "Anker",
+    "jumlah_produk": 7,
+    "terjual": 177,
+    "harga_tertinggi": 1850000,
+    "harga_terendah": 691000,
+    "harga_rata_rata": 1023700.0
+  },
+  {
+    "merek": "OBSBOT",
+    "jumlah_produk": 64,
+    "terjual": 1094,
+    "harga_tertinggi": 7990000,
+    "harga_terendah": 125000,
+    "harga_rata_rata": 3136421.88
+  },
+  {
+    "merek": "iPason",
+    "jumlah_produk": 6,
+    "terjual": 320,
+    "harga_tertinggi": 222388,
+    "harga_terendah": 198000,
+    "harga_rata_rata": 218323.33
+  },
+  {
+    "merek": "Tecgear",
+    "jumlah_produk": 6,
+    "terjual": 8,
+    "harga_tertinggi": 306000,
+    "harga_terendah": 205000,
+    "harga_rata_rata": 251666.67
+  },
+  {
+    "merek": "ASUS",
+    "jumlah_produk": 12,
+    "terjual": 221,
+    "harga_tertinggi": 1499000,
+    "harga_terendah": 70000,
+    "harga_rata_rata": 722000.0
+  },
+  {
+    "merek": "Noir",
+    "jumlah_produk": 5,
+    "terjual": 124,
+    "harga_tertinggi": 449000,
+    "harga_terendah": 394999,
+    "harga_rata_rata": 425799.8
+  },
+  {
+    "merek": "Ausdom",
+    "jumlah_produk": 52,
+    "terjual": 8346,
+    "harga_tertinggi": 1200000,
+    "harga_terendah": 60000,
+    "harga_rata_rata": 577882.69
+  },
+  {
+    "merek": "Mibo",
+    "jumlah_produk": 5,
+    "terjual": 684,
+    "harga_tertinggi": 389000,
+    "harga_terendah": 389000,
+    "harga_rata_rata": 389000.0
+  },
+  {
+    "merek": "Micropack",
+    "jumlah_produk": 28,
+    "terjual": 246,
+    "harga_tertinggi": 499000,
+    "harga_terendah": 100000,
+    "harga_rata_rata": 285892.86
+  },
+  {
+    "merek": "Lumi",
+    "jumlah_produk": 14,
+    "terjual": 446,
+    "harga_tertinggi": 494000,
+    "harga_terendah": 290000,
+    "harga_rata_rata": 364928.57
+  },
+  {
+    "merek": "MIXIO",
+    "jumlah_produk": 20,
+    "terjual": 11734,
+    "harga_tertinggi": 625000,
+    "harga_terendah": 150000,
+    "harga_rata_rata": 265295.0
+  },
+  {
+    "merek": "Raptor",
+    "jumlah_produk": 9,
+    "terjual": 187,
+    "harga_tertinggi": 211000,
+    "harga_terendah": 70000,
+    "harga_rata_rata": 145010.0
+  },
+  {
+    "merek": "HikVision",
+    "jumlah_produk": 7,
+    "terjual": 85,
+    "harga_tertinggi": 700000,
+    "harga_terendah": 188000,
+    "harga_rata_rata": 304142.86
+  },
+  {
+    "merek": "AVerMedia",
+    "jumlah_produk": 18,
+    "terjual": 520,
+    "harga_tertinggi": 4995000,
+    "harga_terendah": 399000,
+    "harga_rata_rata": 1801494.44
+  },
+  {
+    "merek": "Cisco",
+    "jumlah_produk": 5,
+    "terjual": 8,
+    "harga_tertinggi": 2900000,
+    "harga_terendah": 2486000,
+    "harga_rata_rata": 2568800.0
+  },
+  {
+    "merek": "Lenovo",
+    "jumlah_produk": 18,
+    "terjual": 518,
+    "harga_tertinggi": 1152400,
+    "harga_terendah": 125000,
+    "harga_rata_rata": 419188.89
+  },
+  {
+    "merek": "Insta360",
+    "jumlah_produk": 13,
+    "terjual": 252,
+    "harga_tertinggi": 5299000,
+    "harga_terendah": 5299000,
+    "harga_rata_rata": 5299000.0
+  },
+  {
+    "merek": "Tenveo",
+    "jumlah_produk": 42,
+    "terjual": 306,
+    "harga_tertinggi": 12500000,
+    "harga_terendah": 400000,
+    "harga_rata_rata": 4769511.9
+  },
+  {
+    "merek": "Brica",
+    "jumlah_produk": 4,
+    "terjual": 129,
+    "harga_tertinggi": 799000,
+    "harga_terendah": 740000,
+    "harga_rata_rata": 759250.0
+  },
+  {
+    "merek": "Elgato",
+    "jumlah_produk": 26,
+    "terjual": 660,
+    "harga_tertinggi": 5859000,
+    "harga_terendah": 1950000,
+    "harga_rata_rata": 3724461.54
+  },
+  {
+    "merek": "Jabra",
+    "jumlah_produk": 11,
+    "terjual": 68,
+    "harga_tertinggi": 79999000,
+    "harga_terendah": 649000,
+    "harga_rata_rata": 12515000.0
+  },
+  {
+    "merek": "KRX",
+    "jumlah_produk": 5,
+    "terjual": 96,
+    "harga_tertinggi": 169000,
+    "harga_terendah": 100000,
+    "harga_rata_rata": 130600.0
+  },
+  {
+    "merek": "Televideo",
+    "jumlah_produk": 4,
+    "terjual": 53,
+    "harga_tertinggi": 499000,
+    "harga_terendah": 299000,
+    "harga_rata_rata": 399000.0
+  },
+  {
+    "merek": "CLIPtec",
+    "jumlah_produk": 5,
+    "terjual": 73,
+    "harga_tertinggi": 385000,
+    "harga_terendah": 165500,
+    "harga_rata_rata": 335900.0
+  },
+  {
+    "merek": "Rexus",
+    "jumlah_produk": 16,
+    "terjual": 134,
+    "harga_tertinggi": 859000,
+    "harga_terendah": 275000,
+    "harga_rata_rata": 456191.62
+  },
+  {
+    "merek": "Mycam",
+    "jumlah_produk": 10,
+    "terjual": 216,
+    "harga_tertinggi": 399000,
+    "harga_terendah": 209900,
+    "harga_rata_rata": 277490.0
+  },
+  {
+    "merek": "Inbox",
+    "jumlah_produk": 5,
+    "terjual": 29,
+    "harga_tertinggi": 122000,
+    "harga_terendah": 109800,
+    "harga_rata_rata": 117120.0
+  },
+  {
+    "merek": "Supermall",
+    "jumlah_produk": 1,
+    "terjual": 500,
+    "harga_tertinggi": 7000,
+    "harga_terendah": 7000,
+    "harga_rata_rata": 7000.0
+  },
+  {
+    "merek": "Komic",
+    "jumlah_produk": 9,
+    "terjual": 464,
+    "harga_tertinggi": 265000,
+    "harga_terendah": 75000,
+    "harga_rata_rata": 126222.22
+  },
+  {
+    "merek": "Ashu",
+    "jumlah_produk": 2,
+    "terjual": 264,
+    "harga_tertinggi": 432500,
+    "harga_terendah": 117000,
+    "harga_rata_rata": 274750.0
+  },
+  {
+    "merek": "Papalook",
+    "jumlah_produk": 18,
+    "terjual": 1045,
+    "harga_tertinggi": 1200000,
+    "harga_terendah": 455000,
+    "harga_rata_rata": 800055.56
+  }
+]

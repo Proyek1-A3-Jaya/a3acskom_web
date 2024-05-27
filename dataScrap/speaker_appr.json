@@ -1,0 +1,170 @@
+[
+  {
+    "merek": "JETE",
+    "jumlah_produk": 33,
+    "terjual": 512,
+    "harga_tertinggi": 560000,
+    "harga_terendah": 143000,
+    "harga_rata_rata": 204009.09
+  },
+  {
+    "merek": "Altec",
+    "jumlah_produk": 71,
+    "terjual": 2530,
+    "harga_tertinggi": 490000,
+    "harga_terendah": 169600,
+    "harga_rata_rata": 296721.11
+  },
+  {
+    "merek": "Multimedia",
+    "jumlah_produk": 209,
+    "terjual": 28721,
+    "harga_tertinggi": 4999000,
+    "harga_terendah": 18998,
+    "harga_rata_rata": 257506.73
+  },
+  {
+    "merek": "Simbadda",
+    "jumlah_produk": 101,
+    "terjual": 1357,
+    "harga_tertinggi": 4399600,
+    "harga_terendah": 315000,
+    "harga_rata_rata": 991587.13
+  },
+  {
+    "merek": "Robot",
+    "jumlah_produk": 98,
+    "terjual": 14005,
+    "harga_tertinggi": 707000,
+    "harga_terendah": 58300,
+    "harga_rata_rata": 196466.03
+  },
+  {
+    "merek": "Kisonli",
+    "jumlah_produk": 506,
+    "terjual": 5460,
+    "harga_tertinggi": 1456000,
+    "harga_terendah": 32500,
+    "harga_rata_rata": 194060.83
+  },
+  {
+    "merek": "Lainnya",
+    "jumlah_produk": 842,
+    "terjual": 100210,
+    "harga_tertinggi": 8988888,
+    "harga_terendah": 2100,
+    "harga_rata_rata": 673880.91
+  },
+  {
+    "merek": "Edifier",
+    "jumlah_produk": 38,
+    "terjual": 1295,
+    "harga_tertinggi": 2122000,
+    "harga_terendah": 115000,
+    "harga_rata_rata": 566829.42
+  },
+  {
+    "merek": "Fleco",
+    "jumlah_produk": 171,
+    "terjual": 2408,
+    "harga_tertinggi": 2125000,
+    "harga_terendah": 34999,
+    "harga_rata_rata": 160846.78
+  },
+  {
+    "merek": "Advance",
+    "jumlah_produk": 230,
+    "terjual": 3511,
+    "harga_tertinggi": 2499600,
+    "harga_terendah": 40000,
+    "harga_rata_rata": 333970.34
+  },
+  {
+    "merek": "K-One",
+    "jumlah_produk": 18,
+    "terjual": 1506,
+    "harga_tertinggi": 165000,
+    "harga_terendah": 52000,
+    "harga_rata_rata": 85845.0
+  },
+  {
+    "merek": "Ashley",
+    "jumlah_produk": 8,
+    "terjual": 1,
+    "harga_tertinggi": 1900000,
+    "harga_terendah": 1250000,
+    "harga_rata_rata": 1564750.0
+  },
+  {
+    "merek": "Gamen",
+    "jumlah_produk": 71,
+    "terjual": 2040,
+    "harga_tertinggi": 423000,
+    "harga_terendah": 58300,
+    "harga_rata_rata": 139087.45
+  },
+  {
+    "merek": "Lenovo",
+    "jumlah_produk": 18,
+    "terjual": 20349,
+    "harga_tertinggi": 350000,
+    "harga_terendah": 82000,
+    "harga_rata_rata": 144909.11
+  },
+  {
+    "merek": "JBL",
+    "jumlah_produk": 11,
+    "terjual": 231,
+    "harga_tertinggi": 1939000,
+    "harga_terendah": 65000,
+    "harga_rata_rata": 553418.18
+  },
+  {
+    "merek": "Bonks",
+    "jumlah_produk": 9,
+    "terjual": 41,
+    "harga_tertinggi": 168748,
+    "harga_terendah": 54500,
+    "harga_rata_rata": 85194.11
+  },
+  {
+    "merek": "M-Tech",
+    "jumlah_produk": 48,
+    "terjual": 265,
+    "harga_tertinggi": 192820,
+    "harga_terendah": 30000,
+    "harga_rata_rata": 53724.42
+  },
+  {
+    "merek": "SADA",
+    "jumlah_produk": 14,
+    "terjual": 1114,
+    "harga_tertinggi": 281000,
+    "harga_terendah": 125000,
+    "harga_rata_rata": 186707.0
+  },
+  {
+    "merek": "GMC",
+    "jumlah_produk": 5,
+    "terjual": 6,
+    "harga_tertinggi": 357000,
+    "harga_terendah": 169000,
+    "harga_rata_rata": 234200.0
+  },
+  {
+    "merek": "Ezeey",
+    "jumlah_produk": 5,
+    "terjual": 36,
+    "harga_tertinggi": 120000,
+    "harga_terendah": 65800,
+    "harga_rata_rata": 93360.0
+  },
+  {
+    "merek": "Logitech",
+    "jumlah_produk": 12,
+    "terjual": 28035,
+    "harga_tertinggi": 674900,
+    "harga_terendah": 125000,
+    "harga_rata_rata": 446825.0
+  }
+]

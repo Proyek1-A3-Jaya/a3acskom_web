@@ -9,8 +9,7 @@
     <meta name="author" content="">
 
     <title>A3 Tech Trove</title>
-    <link rel="icon" href="images/logo3.png"
-        type="image/x-icon" />
+    <link rel="icon" href="images/logo3.png" type="image/x-icon" />
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,8 +115,7 @@ https://templatemo.com/tm-584-pod-talk
                         <!-- Profil Anggota -->
                         <div class="owl-carousel owl-theme">
                             <div class="owl-carousel-info-wrap item">
-                                <img src="images/profile/farras.jpeg"
-                                    class="owl-carousel-image img-fluid" alt="">
+                                <img src="images/profile/farras.jpeg" class="owl-carousel-image img-fluid" alt="">
 
                                 <div class="owl-carousel-info">
                                     <h4 class="mb-2">
@@ -177,8 +175,7 @@ https://templatemo.com/tm-584-pod-talk
                             </div>
 
                             <div class="owl-carousel-info-wrap item">
-                                <img src="images/profile/satria.jpeg"
-                                    class="owl-carousel-image img-fluid" alt="">
+                                <img src="images/profile/satria.jpeg" class="owl-carousel-image img-fluid" alt="">
 
                                 <div class="owl-carousel-info">
                                     <h4 class="mb-2">Satria</h4>
@@ -229,8 +226,7 @@ https://templatemo.com/tm-584-pod-talk
                             </div>
 
                             <div class="owl-carousel-info-wrap item">
-                                <img src="images/profile/yobel.jpeg"
-                                    class="owl-carousel-image img-fluid" alt="">
+                                <img src="images/profile/yobel.jpeg" class="owl-carousel-image img-fluid" alt="">
 
                                 <div class="owl-carousel-info">
                                     <h4 class="mb-2">
@@ -265,24 +261,63 @@ https://templatemo.com/tm-584-pod-talk
 
         <section class="dataVisual">
             <div class="container">
-                <h4 class="section-title">Total Terjual Headphone</h4>
+                <h4 class="section-title">Harga Rerata Headphone</h4>
                 <div>
-                    <canvas id="pieChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Mouse</h4>
-                <div>
-                    <canvas id="barChart"></canvas>
+                    <label for="headphoneFilterSlider" id="headphoneFilterLabel">Jumlah merek yang ditampilkan: 10</label>
+                    <input type="range" id="headphoneFilterSlider">
+                    <canvas id="headphoneChart"></canvas>
                 </div>
             </div>
             <div class="container">
                 <h4 class="section-title">Harga Rerata Keyboard</h4>
                 <div>
+                    <label for="keyboardFilterSlider" id="keyboardFilterLabel">Jumlah merek yang ditampilkan: 10</label>
+                    <input type="range" id="keyboardFilterSlider">
                     <canvas id="keyboardChart"></canvas>
                 </div>
             </div>
+            <div class="container">
+                <h4 class="section-title">Harga Rerata Monitor</h4>
+                <div>
+                    <label for="monitorFilterSlider" id="monitorFilterLabel">Jumlah merek yang ditampilkan: 10</label>
+                    <input type="range" id="monitorFilterSlider">
+                    <canvas id="monitorChart"></canvas>
+                </div>
+            </div>
+            <div class="container">
+                <h4 class="section-title">Harga Rerata Mouse</h4>
+                <div>
+                    <label for="mouseFilterSlider" id="mouseFilterLabel">Jumlah merek yang ditampilkan: 10</label>
+                    <input type="range" id="mouseFilterSlider">
+                    <canvas id="mouseChart"></canvas>
+                </div>
+            </div>
+            <div class="container">
+                <h4 class="section-title">Harga Rerata Speaker</h4>
+                <div>
+                    <label for="speakerFilterSlider" id="speakerFilterLabel">Jumlah merek yang ditampilkan: 10</label>
+                    <input type="range" id="speakerFilterSlider">
+                    <canvas id="speakerChart"></canvas>
+                </div>
+            </div>
+            <div class="container">
+                <h4 class="section-title">Harga Rerata Tas Laptop</h4>
+                <div>
+                    <label for="tasLaptopFilterSlider" id="tasLaptopFilterLabel">Jumlah merek yang ditampilkan: 10</label>
+                    <input type="range" id="tasLaptopFilterSlider">
+                    <canvas id="tasLaptopChart"></canvas>
+                </div>
+            </div>
+            <div class="container">
+                <h4 class="section-title">Harga Rerata Webcam</h4>
+                <div>
+                    <label for="webcamFilterSlider" id="webcamFilterLabel">Jumlah merek yang ditampilkan: 10</label>
+                    <input type="range" id="webcamFilterSlider">
+                    <canvas id="webcamChart"></canvas>
+                </div>
+            </div>
         </section>
+        
 
 
         <footer class="site-footer">
