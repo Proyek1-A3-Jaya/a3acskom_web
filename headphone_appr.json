@@ -1,0 +1,762 @@
+[
+  {
+    "merek": "Lainnya",
+    "jumlah_produk": 668,
+    "terjual": 226769,
+    "harga_tertinggi": 33500000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 537225.88
+  },
+  {
+    "merek": "Thinkplus",
+    "jumlah_produk": 36,
+    "terjual": 46589,
+    "harga_tertinggi": 467000,
+    "harga_terendah": 39000,
+    "harga_rata_rata": 187666.67
+  },
+  {
+    "merek": "MOVIO",
+    "jumlah_produk": 1,
+    "terjual": 1000,
+    "harga_tertinggi": 19000,
+    "harga_terendah": 19000,
+    "harga_rata_rata": 19000.0
+  },
+  {
+    "merek": "Sony",
+    "jumlah_produk": 264,
+    "terjual": 86454,
+    "harga_tertinggi": 20849000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 1577711.77
+  },
+  {
+    "merek": "Logitech",
+    "jumlah_produk": 100,
+    "terjual": 93959,
+    "harga_tertinggi": 1378000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 207707.37
+  },
+  {
+    "merek": "JBL",
+    "jumlah_produk": 121,
+    "terjual": 42288,
+    "harga_tertinggi": 4399000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 501260.45
+  },
+  {
+    "merek": "Baseus",
+    "jumlah_produk": 65,
+    "terjual": 26492,
+    "harga_tertinggi": 619000,
+    "harga_terendah": 12500,
+    "harga_rata_rata": 313732.31
+  },
+  {
+    "merek": "Philips",
+    "jumlah_produk": 30,
+    "terjual": 4737,
+    "harga_tertinggi": 2990000,
+    "harga_terendah": 7000,
+    "harga_rata_rata": 578446.67
+  },
+  {
+    "merek": "Soundcore",
+    "jumlah_produk": 19,
+    "terjual": 8506,
+    "harga_tertinggi": 1199000,
+    "harga_terendah": 499000,
+    "harga_rata_rata": 683315.79
+  },
+  {
+    "merek": "Samsung",
+    "jumlah_produk": 9,
+    "terjual": 16623,
+    "harga_tertinggi": 149000,
+    "harga_terendah": 4750,
+    "harga_rata_rata": 38183.22
+  },
+  {
+    "merek": "Audio Technica",
+    "jumlah_produk": 99,
+    "terjual": 28029,
+    "harga_tertinggi": 5350000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 1271301.01
+  },
+  {
+    "merek": "Morejoy",
+    "jumlah_produk": 1,
+    "terjual": 16,
+    "harga_tertinggi": 65900,
+    "harga_terendah": 65900,
+    "harga_rata_rata": 65900.0
+  },
+  {
+    "merek": "Mpow",
+    "jumlah_produk": 17,
+    "terjual": 1017,
+    "harga_tertinggi": 359000,
+    "harga_terendah": 59000,
+    "harga_rata_rata": 163647.06
+  },
+  {
+    "merek": "Anker",
+    "jumlah_produk": 39,
+    "terjual": 4444,
+    "harga_tertinggi": 1875000,
+    "harga_terendah": 479000,
+    "harga_rata_rata": 862987.18
+  },
+  {
+    "merek": "Nokia",
+    "jumlah_produk": 37,
+    "terjual": 15530,
+    "harga_tertinggi": 509000,
+    "harga_terendah": 20000,
+    "harga_rata_rata": 327175.68
+  },
+  {
+    "merek": "Nakamichi",
+    "jumlah_produk": 35,
+    "terjual": 17872,
+    "harga_tertinggi": 399900,
+    "harga_terendah": 98000,
+    "harga_rata_rata": 204822.57
+  },
+  {
+    "merek": "Superlux",
+    "jumlah_produk": 5,
+    "terjual": 72,
+    "harga_tertinggi": 787500,
+    "harga_terendah": 436500,
+    "harga_rata_rata": 548950.0
+  },
+  {
+    "merek": "SoundPEATS",
+    "jumlah_produk": 15,
+    "terjual": 3228,
+    "harga_tertinggi": 519000,
+    "harga_terendah": 259000,
+    "harga_rata_rata": 429666.67
+  },
+  {
+    "merek": "Beyerdynamic",
+    "jumlah_produk": 14,
+    "terjual": 458,
+    "harga_tertinggi": 4995000,
+    "harga_terendah": 1749000,
+    "harga_rata_rata": 3573785.71
+  },
+  {
+    "merek": "HUOREI",
+    "jumlah_produk": 1,
+    "terjual": 100,
+    "harga_tertinggi": 28500,
+    "harga_terendah": 28500,
+    "harga_rata_rata": 28500.0
+  },
+  {
+    "merek": "JETE",
+    "jumlah_produk": 64,
+    "terjual": 32148,
+    "harga_tertinggi": 449900,
+    "harga_terendah": 6900,
+    "harga_rata_rata": 160301.41
+  },
+  {
+    "merek": "Acetech",
+    "jumlah_produk": 2,
+    "terjual": 1250,
+    "harga_tertinggi": 32000,
+    "harga_terendah": 21900,
+    "harga_rata_rata": 26950.0
+  },
+  {
+    "merek": "dbE",
+    "jumlah_produk": 75,
+    "terjual": 167847,
+    "harga_tertinggi": 599000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 247705.33
+  },
+  {
+    "merek": "Jabra",
+    "jumlah_produk": 24,
+    "terjual": 716,
+    "harga_tertinggi": 6955000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 3158837.5
+  },
+  {
+    "merek": "Pioneer",
+    "jumlah_produk": 22,
+    "terjual": 1766,
+    "harga_tertinggi": 3750000,
+    "harga_terendah": 98000,
+    "harga_rata_rata": 974045.45
+  },
+  {
+    "merek": "AKG",
+    "jumlah_produk": 21,
+    "terjual": 2637,
+    "harga_tertinggi": 3350000,
+    "harga_terendah": 6700,
+    "harga_rata_rata": 1273642.86
+  },
+  {
+    "merek": "FiiO",
+    "jumlah_produk": 8,
+    "terjual": 88,
+    "harga_tertinggi": 7200000,
+    "harga_terendah": 995000,
+    "harga_rata_rata": 2961750.0
+  },
+  {
+    "merek": "Suunto",
+    "jumlah_produk": 11,
+    "terjual": 129,
+    "harga_tertinggi": 3399000,
+    "harga_terendah": 2399040,
+    "harga_rata_rata": 3073388.18
+  },
+  {
+    "merek": "ACOME",
+    "jumlah_produk": 6,
+    "terjual": 1177,
+    "harga_tertinggi": 169900,
+    "harga_terendah": 26900,
+    "harga_rata_rata": 136950.0
+  },
+  {
+    "merek": "XO",
+    "jumlah_produk": 7,
+    "terjual": 195,
+    "harga_tertinggi": 279000,
+    "harga_terendah": 168000,
+    "harga_rata_rata": 250714.29
+  },
+  {
+    "merek": "Edifier",
+    "jumlah_produk": 72,
+    "terjual": 18158,
+    "harga_tertinggi": 3999000,
+    "harga_terendah": 27500,
+    "harga_rata_rata": 940534.72
+  },
+  {
+    "merek": "OneOdio",
+    "jumlah_produk": 23,
+    "terjual": 519,
+    "harga_tertinggi": 1299000,
+    "harga_terendah": 27500,
+    "harga_rata_rata": 534736.52
+  },
+  {
+    "merek": "HIFIMAN",
+    "jumlah_produk": 19,
+    "terjual": 358,
+    "harga_tertinggi": 85000000,
+    "harga_terendah": 450000,
+    "harga_rata_rata": 10441631.58
+  },
+  {
+    "merek": "Naxen",
+    "jumlah_produk": 7,
+    "terjual": 247,
+    "harga_tertinggi": 249000,
+    "harga_terendah": 39900,
+    "harga_rata_rata": 108271.43
+  },
+  {
+    "merek": "Miniso",
+    "jumlah_produk": 7,
+    "terjual": 2527,
+    "harga_tertinggi": 179900,
+    "harga_terendah": 16900,
+    "harga_rata_rata": 116057.14
+  },
+  {
+    "merek": "Dolphin",
+    "jumlah_produk": 21,
+    "terjual": 774,
+    "harga_tertinggi": 590000,
+    "harga_terendah": 380000,
+    "harga_rata_rata": 485428.57
+  },
+  {
+    "merek": "Audio-Technica",
+    "jumlah_produk": 17,
+    "terjual": 4736,
+    "harga_tertinggi": 2890000,
+    "harga_terendah": 175000,
+    "harga_rata_rata": 956882.35
+  },
+  {
+    "merek": "Panasonic",
+    "jumlah_produk": 4,
+    "terjual": 270,
+    "harga_tertinggi": 1499000,
+    "harga_terendah": 55000,
+    "harga_rata_rata": 434750.0
+  },
+  {
+    "merek": "Sonos",
+    "jumlah_produk": 5,
+    "terjual": 1,
+    "harga_tertinggi": 9290000,
+    "harga_terendah": 9290000,
+    "harga_rata_rata": 9290000.0
+  },
+  {
+    "merek": "Eggel",
+    "jumlah_produk": 4,
+    "terjual": 163,
+    "harga_tertinggi": 399000,
+    "harga_terendah": 375000,
+    "harga_rata_rata": 390500.0
+  },
+  {
+    "merek": "UGREEN",
+    "jumlah_produk": 2,
+    "terjual": 45,
+    "harga_tertinggi": 155000,
+    "harga_terendah": 124500,
+    "harga_rata_rata": 139750.0
+  },
+  {
+    "merek": "Apple",
+    "jumlah_produk": 6,
+    "terjual": 1164,
+    "harga_tertinggi": 8999000,
+    "harga_terendah": 277500,
+    "harga_rata_rata": 5807583.17
+  },
+  {
+    "merek": "Plantronics",
+    "jumlah_produk": 12,
+    "terjual": 904,
+    "harga_tertinggi": 4599000,
+    "harga_terendah": 8500,
+    "harga_rata_rata": 1197750.0
+  },
+  {
+    "merek": "UFQ",
+    "jumlah_produk": 3,
+    "terjual": 173,
+    "harga_tertinggi": 4800000,
+    "harga_terendah": 2800000,
+    "harga_rata_rata": 3633333.33
+  },
+  {
+    "merek": "Fantech",
+    "jumlah_produk": 21,
+    "terjual": 1457,
+    "harga_tertinggi": 399000,
+    "harga_terendah": 67500,
+    "harga_rata_rata": 249357.14
+  },
+  {
+    "merek": "Vivan",
+    "jumlah_produk": 6,
+    "terjual": 141,
+    "harga_tertinggi": 230900,
+    "harga_terendah": 24500,
+    "harga_rata_rata": 176341.67
+  },
+  {
+    "merek": "Austrian Audio",
+    "jumlah_produk": 3,
+    "terjual": 4,
+    "harga_tertinggi": 6944000,
+    "harga_terendah": 1968000,
+    "harga_rata_rata": 3960000.0
+  },
+  {
+    "merek": "KIIP",
+    "jumlah_produk": 35,
+    "terjual": 15364,
+    "harga_tertinggi": 369000,
+    "harga_terendah": 29000,
+    "harga_rata_rata": 176585.71
+  },
+  {
+    "merek": "Lenovo",
+    "jumlah_produk": 20,
+    "terjual": 4402,
+    "harga_tertinggi": 425000,
+    "harga_terendah": 99000,
+    "harga_rata_rata": 226397.4
+  },
+  {
+    "merek": "Takstar",
+    "jumlah_produk": 9,
+    "terjual": 958,
+    "harga_tertinggi": 924000,
+    "harga_terendah": 155000,
+    "harga_rata_rata": 343499.78
+  },
+  {
+    "merek": "Bose",
+    "jumlah_produk": 22,
+    "terjual": 2014,
+    "harga_tertinggi": 22700000,
+    "harga_terendah": 50000,
+    "harga_rata_rata": 5620684.09
+  },
+  {
+    "merek": "P9",
+    "jumlah_produk": 24,
+    "terjual": 3388,
+    "harga_tertinggi": 349000,
+    "harga_terendah": 39000,
+    "harga_rata_rata": 72688.62
+  },
+  {
+    "merek": "Master & Dynamic",
+    "jumlah_produk": 4,
+    "terjual": 6,
+    "harga_tertinggi": 7590000,
+    "harga_terendah": 3999000,
+    "harga_rata_rata": 5384250.0
+  },
+  {
+    "merek": "V Moda",
+    "jumlah_produk": 3,
+    "terjual": 21,
+    "harga_tertinggi": 5199000,
+    "harga_terendah": 2699000,
+    "harga_rata_rata": 4099000.0
+  },
+  {
+    "merek": "BuddyPhones",
+    "jumlah_produk": 1,
+    "terjual": 500,
+    "harga_tertinggi": 209000,
+    "harga_terendah": 209000,
+    "harga_rata_rata": 209000.0
+  },
+  {
+    "merek": "YESPLUS",
+    "jumlah_produk": 5,
+    "terjual": 556,
+    "harga_tertinggi": 12000,
+    "harga_terendah": 6880,
+    "harga_rata_rata": 9656.0
+  },
+  {
+    "merek": "Sharp",
+    "jumlah_produk": 2,
+    "terjual": 102,
+    "harga_tertinggi": 699000,
+    "harga_terendah": 619000,
+    "harga_rata_rata": 659000.0
+  },
+  {
+    "merek": "Robot",
+    "jumlah_produk": 17,
+    "terjual": 13968,
+    "harga_tertinggi": 161900,
+    "harga_terendah": 12000,
+    "harga_rata_rata": 68707.35
+  },
+  {
+    "merek": "eZm",
+    "jumlah_produk": 1,
+    "terjual": 60,
+    "harga_tertinggi": 229000,
+    "harga_terendah": 229000,
+    "harga_rata_rata": 229000.0
+  },
+  {
+    "merek": "SOUL",
+    "jumlah_produk": 5,
+    "terjual": 706,
+    "harga_tertinggi": 379000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 157500.0
+  },
+  {
+    "merek": "Shure",
+    "jumlah_produk": 14,
+    "terjual": 134,
+    "harga_tertinggi": 8487000,
+    "harga_terendah": 999000,
+    "harga_rata_rata": 3134428.5
+  },
+  {
+    "merek": "Supermall",
+    "jumlah_produk": 1,
+    "terjual": 1000,
+    "harga_tertinggi": 19000,
+    "harga_terendah": 19000,
+    "harga_rata_rata": 19000.0
+  },
+  {
+    "merek": "Maono",
+    "jumlah_produk": 5,
+    "terjual": 285,
+    "harga_tertinggi": 599000,
+    "harga_terendah": 520000,
+    "harga_rata_rata": 583200.0
+  },
+  {
+    "merek": "ZOLA",
+    "jumlah_produk": 10,
+    "terjual": 1216,
+    "harga_tertinggi": 599900,
+    "harga_terendah": 149900,
+    "harga_rata_rata": 327400.0
+  },
+  {
+    "merek": "Behringer",
+    "jumlah_produk": 28,
+    "terjual": 2359,
+    "harga_tertinggi": 1144500,
+    "harga_terendah": 220000,
+    "harga_rata_rata": 475440.71
+  },
+  {
+    "merek": "KREZT",
+    "jumlah_produk": 1,
+    "terjual": 60,
+    "harga_tertinggi": 240000,
+    "harga_terendah": 240000,
+    "harga_rata_rata": 240000.0
+  },
+  {
+    "merek": "TaffSTUDIO",
+    "jumlah_produk": 4,
+    "terjual": 1085,
+    "harga_tertinggi": 180000,
+    "harga_terendah": 28900,
+    "harga_rata_rata": 101500.0
+  },
+  {
+    "merek": "Shokz",
+    "jumlah_produk": 29,
+    "terjual": 3808,
+    "harga_tertinggi": 3400000,
+    "harga_terendah": 1169000,
+    "harga_rata_rata": 1965344.79
+  },
+  {
+    "merek": "HyperX",
+    "jumlah_produk": 7,
+    "terjual": 670,
+    "harga_tertinggi": 1550000,
+    "harga_terendah": 93000,
+    "harga_rata_rata": 1187571.43
+  },
+  {
+    "merek": "U19",
+    "jumlah_produk": 6,
+    "terjual": 4107,
+    "harga_tertinggi": 7500,
+    "harga_terendah": 3000,
+    "harga_rata_rata": 5450.0
+  },
+  {
+    "merek": "Sennheiser",
+    "jumlah_produk": 79,
+    "terjual": 2875,
+    "harga_tertinggi": 41399000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 3815198.23
+  },
+  {
+    "merek": "Marshall",
+    "jumlah_produk": 26,
+    "terjual": 1634,
+    "harga_tertinggi": 5199000,
+    "harga_terendah": 14500,
+    "harga_rata_rata": 1093500.0
+  },
+  {
+    "merek": "KOSS",
+    "jumlah_produk": 11,
+    "terjual": 731,
+    "harga_tertinggi": 975000,
+    "harga_terendah": 7500,
+    "harga_rata_rata": 583545.45
+  },
+  {
+    "merek": "Yamaha",
+    "jumlah_produk": 7,
+    "terjual": 105,
+    "harga_tertinggi": 2665000,
+    "harga_terendah": 350000,
+    "harga_rata_rata": 1218357.14
+  },
+  {
+    "merek": "Incus",
+    "jumlah_produk": 4,
+    "terjual": 0,
+    "harga_tertinggi": 25000,
+    "harga_terendah": 25000,
+    "harga_rata_rata": 25000.0
+  },
+  {
+    "merek": "Bishon",
+    "jumlah_produk": 2,
+    "terjual": 500,
+    "harga_tertinggi": 213500,
+    "harga_terendah": 213500,
+    "harga_rata_rata": 213500.0
+  },
+  {
+    "merek": "Mikuso",
+    "jumlah_produk": 2,
+    "terjual": 59,
+    "harga_tertinggi": 80000,
+    "harga_terendah": 75000,
+    "harga_rata_rata": 77500.0
+  },
+  {
+    "merek": "Aven",
+    "jumlah_produk": 5,
+    "terjual": 217,
+    "harga_tertinggi": 99900,
+    "harga_terendah": 8926,
+    "harga_rata_rata": 47968.6
+  },
+  {
+    "merek": "inBand",
+    "jumlah_produk": 1,
+    "terjual": 1000,
+    "harga_tertinggi": 189000,
+    "harga_terendah": 189000,
+    "harga_rata_rata": 189000.0
+  },
+  {
+    "merek": "Moondrop",
+    "jumlah_produk": 8,
+    "terjual": 83,
+    "harga_tertinggi": 9375000,
+    "harga_terendah": 40000,
+    "harga_rata_rata": 3414687.5
+  },
+  {
+    "merek": "Rexus",
+    "jumlah_produk": 13,
+    "terjual": 990,
+    "harga_tertinggi": 589000,
+    "harga_terendah": 100,
+    "harga_rata_rata": 239864.62
+  },
+  {
+    "merek": "Meze",
+    "jumlah_produk": 4,
+    "terjual": 22,
+    "harga_tertinggi": 50000000,
+    "harga_terendah": 5199000,
+    "harga_rata_rata": 29649750.0
+  },
+  {
+    "merek": "Bowers & Wilkins",
+    "jumlah_produk": 6,
+    "terjual": 72,
+    "harga_tertinggi": 11202750,
+    "harga_terendah": 5990000,
+    "harga_rata_rata": 8127583.33
+  },
+  {
+    "merek": "Focal",
+    "jumlah_produk": 5,
+    "terjual": 21,
+    "harga_tertinggi": 72000000,
+    "harga_terendah": 5150000,
+    "harga_rata_rata": 29513000.0
+  },
+  {
+    "merek": "iClever",
+    "jumlah_produk": 4,
+    "terjual": 252,
+    "harga_tertinggi": 539000,
+    "harga_terendah": 199900,
+    "harga_rata_rata": 381975.0
+  },
+  {
+    "merek": "Haylou",
+    "jumlah_produk": 7,
+    "terjual": 3133,
+    "harga_tertinggi": 1286000,
+    "harga_terendah": 495999,
+    "harga_rata_rata": 878714.14
+  },
+  {
+    "merek": "Klatre",
+    "jumlah_produk": 1,
+    "terjual": 70,
+    "harga_tertinggi": 1484900,
+    "harga_terendah": 1484900,
+    "harga_rata_rata": 1484900.0
+  },
+  {
+    "merek": "Roland",
+    "jumlah_produk": 2,
+    "terjual": 90,
+    "harga_tertinggi": 1360000,
+    "harga_terendah": 664000,
+    "harga_rata_rata": 1012000.0
+  },
+  {
+    "merek": "Oraimo",
+    "jumlah_produk": 1,
+    "terjual": 14,
+    "harga_tertinggi": 309900,
+    "harga_terendah": 309900,
+    "harga_rata_rata": 309900.0
+  },
+  {
+    "merek": "V-Moda",
+    "jumlah_produk": 1,
+    "terjual": 25,
+    "harga_tertinggi": 4399000,
+    "harga_terendah": 4399000,
+    "harga_rata_rata": 4399000.0
+  },
+  {
+    "merek": "Beats",
+    "jumlah_produk": 6,
+    "terjual": 297,
+    "harga_tertinggi": 6000000,
+    "harga_terendah": 5000,
+    "harga_rata_rata": 2639000.0
+  },
+  {
+    "merek": "Grado",
+    "jumlah_produk": 4,
+    "terjual": 9,
+    "harga_tertinggi": 6750000,
+    "harga_terendah": 1399000,
+    "harga_rata_rata": 3437000.0
+  },
+  {
+    "merek": "Denon",
+    "jumlah_produk": 1,
+    "terjual": 250,
+    "harga_tertinggi": 225000,
+    "harga_terendah": 225000,
+    "harga_rata_rata": 225000.0
+  },
+  {
+    "merek": "Skullcandy",
+    "jumlah_produk": 1,
+    "terjual": 3,
+    "harga_tertinggi": 3799000,
+    "harga_terendah": 3799000,
+    "harga_rata_rata": 3799000.0
+  },
+  {
+    "merek": "Bang & Olufsen",
+    "jumlah_produk": 1,
+    "terjual": 5,
+    "harga_tertinggi": 4249000,
+    "harga_terendah": 4249000,
+    "harga_rata_rata": 4249000.0
+  }
+]
