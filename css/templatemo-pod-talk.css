@@ -526,11 +526,11 @@ main {
   bottom: 0;
   right: 0;
   left: 0;
-  padding: 30px;
+  padding: 15px;
 }
 
 .badge {
-  background-color: var(--custom-btn-bg-color);
+  background-color: rgba(0, 163, 0, 0.873);
   font-family: var(--title-font-family);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -564,7 +564,7 @@ main {
 .team-thumb .social-icon-item,
 .team-thumb .social-icon-link {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-left: auto;
 }
 
@@ -1197,6 +1197,20 @@ main {
     margin-top: -200px;
     padding-top: 200px;
     padding-bottom: 100px;
+  }
+
+  /* .badge{
+    font-size: 5px;
+  } */
+
+  .mb-2{
+    display: flex;
+    margin-top: 0;
+    color:white ;
+  }
+
+  .owl-carousel-info{
+    background-color: #348bd243;
   }
 }
 
