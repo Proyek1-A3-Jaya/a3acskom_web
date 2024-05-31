@@ -49,10 +49,10 @@ https://templatemo.com/tm-584-pod-talk
                     <img src="images/logo3.png" class="logo-image img-fluid" alt="templatemo pod talk">
                 </a>
 
-                <form action="#" method="get" class="custom-form search-form flex-fill me-3" role="search">
+                <form action="index.html" method="get" class="custom-form search-form flex-fill me-3" role="search" id="searchForm">
                     <div class="input-group input-group-lg">
-                        <input name="search" type="search" class="form-control" id="search" placeholder="Cari Tipe Barang"
-                            aria-label="Search">
+                        <input name="search" type="search" class="form-control" id="search"
+                            placeholder="Cari Tipe Barang" aria-label="Search">
 
                         <button type="submit" class="form-control" id="submit">
                             <i class="bi-search"></i>
@@ -345,8 +345,8 @@ https://templatemo.com/tm-584-pod-talk
                 </div>
             </div>
         </section>
-        
-        
+
+
 
 
         <footer class="site-footer">
@@ -463,7 +463,13 @@ https://templatemo.com/tm-584-pod-talk
         <script src="js/custom.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="js/chart.js"></script>
-
+        <script>
+            document.getElementById('searchForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                var searchTerm = document.querySelector('#search').value.trim();
+                window.location.href = 'search-result.html?search=' + encodeURIComponent(searchTerm);
+            });
+        </script>
 </body>
 
 </html>
