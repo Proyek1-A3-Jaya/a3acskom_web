@@ -24,37 +24,75 @@ function createChart(data, chartId, chartLabel, sliderId, labelId, orderId, data
   const initialData = sortedData.slice(0, 10);
 
   const labels = initialData.map(item => item.merek);
-  const chartData = initialData.map(item => item.harga_rata_rata);
+  const chartDataHarga = initialData.map(item => item.harga_rata_rata);
+  const chartDataTerjual = initialData.map(item => item.terjual);
 
   const ctx = document.getElementById(chartId).getContext('2d');
   const chart = new Chart(ctx, {
-    type: 'bar',
     data: {
       labels: labels,
-      datasets: [{
-        label: chartLabel,
-        data: chartData,
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
-        borderWidth: 1
-      }]
+      datasets: [
+        {
+          type: 'bar',
+          label: 'Harga Rata-Rata',
+          data: chartDataHarga,
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1,
+          yAxisID: 'y-axis-harga'
+        },
+        {
+          type: 'line',
+          label: 'Total Terjual',
+          data: chartDataTerjual,
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 1,
+          yAxisID: 'y-axis-terjual'
+        }
+      ]
     },
     options: {
-      indexAxis: 'y',
       scales: {
         x: {
-          beginAtZero: true,
-          title: {
-            display: true,
-            text: 'Harga Rata-Rata'
-          }
-        },
-        y: {
           title: {
             display: true,
             text: 'Merek'
           }
+        },
+        'y-axis-harga': {
+          position: 'left',
+          title: {
+            display: true,
+            text: 'Harga Rata-Rata'
+          },
+          ticks: {
+            beginAtZero: true
+          }
+        },
+        'y-axis-terjual': {
+          position: 'right',
+          title: {
+            display: true,
+            text: 'Total Terjual'
+          },
+          grid: {
+            drawOnChartArea: false // Ini akan menghindari tumpang tindih grid antara dua y-axes
+          }
         }
+      },
+      plugins: {
+        tooltip: {
+          mode: 'index',
+          intersect: false
+        },
+        legend: {
+          position: 'top'
+        }
+      },
+      interaction: {
+        mode: 'index',
+        intersect: false
       }
     }
   });
@@ -82,10 +120,12 @@ function createChart(data, chartId, chartLabel, sliderId, labelId, orderId, data
 
 function updateChart(chart, data) {
   const labels = data.map(item => item.merek);
-  const chartData = data.map(item => item.harga_rata_rata);
+  const chartDataHarga = data.map(item => item.harga_rata_rata);
+  const chartDataTerjual = data.map(item => item.terjual);
 
   chart.data.labels = labels;
-  chart.data.datasets[0].data = chartData;
+  chart.data.datasets[0].data = chartDataHarga;
+  chart.data.datasets[1].data = chartDataTerjual;
   chart.update();
 }
 
