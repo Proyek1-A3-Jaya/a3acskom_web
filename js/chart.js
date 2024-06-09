@@ -7,14 +7,16 @@ function fetchDataAndCreateChart(url, chartId, chartLabel, sliderId, labelId, or
       allData[dataKey] = data;
       createChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey, chartType);
 
-      const numBrands = data.length;
-      const slider = document.getElementById(sliderId);
-      slider.min = 1;
-      slider.max = numBrands;
-      slider.value = 10;
-      
-      const label = document.getElementById(labelId);
-      label.textContent = `Jumlah merek yang ditampilkan: 10`;
+      if (chartType !== 'polarArea') {
+        const numBrands = data.length;
+        const slider = document.getElementById(sliderId);
+        slider.min = 1;
+        slider.max = numBrands;
+        slider.value = 10;
+
+        const label = document.getElementById(labelId);
+        label.textContent = `Jumlah merek yang ditampilkan: 10`;
+      }
     })
     .catch(error => console.error('Error:', error));
 }
@@ -22,10 +24,13 @@ function fetchDataAndCreateChart(url, chartId, chartLabel, sliderId, labelId, or
 function createChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey, chartType) {
   if (chartType === 'horizontalBar') {
     createHorizontalBarChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey);
+  } else if (chartType === 'polarArea') {
+    createDonutChart(data, chartId, chartLabel);
   } else {
     createMixedChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey);
   }
 }
+
 
 function createHorizontalBarChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey) {
   const sortedData = data.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
@@ -220,6 +225,66 @@ function updateMixedChart(chart, data) {
   chart.data.datasets[1].data = chartDataTerjual;
   chart.update();
 }
+
+function createDonutChart(data, chartId, chartLabel) {
+  const labels = Object.keys(data);
+  const chartData = Object.values(data);
+
+  const ctx = document.getElementById(chartId).getContext('2d');
+  const chart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: chartData,
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(153, 102, 255, 0.2)',
+          'rgba(255, 159, 64, 0.2)',
+          'rgba(201, 203, 207, 0.2)'
+        ],
+        borderColor: [
+          'rgb(255, 99, 132)',
+          'rgb(54, 162, 235)',
+          'rgb(255, 206, 86)',
+          'rgb(75, 192, 192)',
+          'rgb(153, 102, 255)',
+          'rgb(255, 159, 64)',
+          'rgb(201, 203, 207)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false, // Menonaktifkan rasio aspek default
+      aspectRatio: 0.6, // Sesuaikan ini sesuai kebutuhan Anda
+      plugins: {
+        legend: {
+          position: 'top'
+        },
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              const label = "Total Terjual" || '';
+              const value = context.raw;
+              return `${label}: ${value}`;
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+
+
+
+fetchDataAndCreateChart('dataScrap/totalTerjual.json', 'totalTerjual', 'Jumlah Terjual', '', '', '', 'terjual', 'polarArea');
+
 
 // Fetch data and create charts for all datasets
 fetchDataAndCreateChart('dataScrap/headphone_appr.json', 'headphoneChart', 'Harga Rata-Rata Headphone', 'headphoneFilterSlider', 'headphoneFilterLabel', 'headphoneOrderSelect', 'headphone');
