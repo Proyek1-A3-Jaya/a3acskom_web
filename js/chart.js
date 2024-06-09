@@ -1,11 +1,11 @@
 let allData = {};
 
-function fetchDataAndCreateChart(url, chartId, chartLabel, sliderId, labelId, orderId, dataKey) {
+function fetchDataAndCreateChart(url, chartId, chartLabel, sliderId, labelId, orderId, dataKey, chartType) {
   fetch(url)
     .then(response => response.json())
     .then(data => {
       allData[dataKey] = data;
-      createChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey);
+      createChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey, chartType);
 
       const numBrands = data.length;
       const slider = document.getElementById(sliderId);
@@ -19,7 +19,99 @@ function fetchDataAndCreateChart(url, chartId, chartLabel, sliderId, labelId, or
     .catch(error => console.error('Error:', error));
 }
 
-function createChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey) {
+function createChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey, chartType) {
+  if (chartType === 'horizontalBar') {
+    createHorizontalBarChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey);
+  } else {
+    createMixedChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey);
+  }
+}
+
+function createHorizontalBarChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey) {
+  const sortedData = data.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
+  const initialData = sortedData.slice(0, 10);
+
+  const labels = initialData.map(item => item.merek);
+  const chartData = initialData.map(item => item.harga_rata_rata);
+
+  const ctx = document.getElementById(chartId).getContext('2d');
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: chartLabel,
+        data: chartData,
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      scales: {
+        x: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Harga Rata-Rata'
+          }
+        },
+        y: {
+          title: {
+            display: true,
+            text: 'Merek'
+          }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function (context) {
+              const label = context.label || '';
+              const value = context.raw;
+              const rating = data.find(item => item.merek === label).rating;
+              const customMessage = `Merek: ${label}`;
+              const ratingMessage = `Rating: ${rating}`;
+              return [customMessage, ratingMessage];
+            }
+          }
+        }
+      }
+    }
+  });
+
+  const filterSlider = document.getElementById(sliderId);
+  const filterLabel = document.getElementById(labelId);
+  const orderSelect = document.getElementById(orderId);
+
+  function updateData() {
+    const numBrands = filterSlider.value;
+    const order = orderSelect.value;
+    filterLabel.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
+
+    const sortedData = order === 'ascending' ?
+      allData[dataKey].sort((a, b) => a.harga_rata_rata - b.harga_rata_rata) :
+      allData[dataKey].sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
+
+    const filteredData = sortedData.slice(0, numBrands);
+    updateHorizontalBarChart(chart, filteredData);
+  }
+
+  filterSlider.addEventListener('input', updateData);
+  orderSelect.addEventListener('change', updateData);
+}
+
+function updateHorizontalBarChart(chart, data) {
+  const labels = data.map(item => item.merek);
+  const chartDataHarga = data.map(item => item.harga_rata_rata);
+
+  chart.data.labels = labels;
+  chart.data.datasets[0].data = chartDataHarga;
+  chart.update();
+}
+
+function createMixedChart(data, chartId, chartLabel, sliderId, labelId, orderId, dataKey) {
   const sortedData = data.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
   const initialData = sortedData.slice(0, 10);
 
@@ -111,14 +203,14 @@ function createChart(data, chartId, chartLabel, sliderId, labelId, orderId, data
       allData[dataKey].sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
 
     const filteredData = sortedData.slice(0, numBrands);
-    updateChart(chart, filteredData);
+    updateMixedChart(chart, filteredData);
   }
 
   filterSlider.addEventListener('input', updateData);
   orderSelect.addEventListener('change', updateData);
 }
 
-function updateChart(chart, data) {
+function updateMixedChart(chart, data) {
   const labels = data.map(item => item.merek);
   const chartDataHarga = data.map(item => item.harga_rata_rata);
   const chartDataTerjual = data.map(item => item.terjual);
@@ -137,3 +229,11 @@ fetchDataAndCreateChart('dataScrap/mouse_appr.json', 'mouseChart', 'Harga Rata-R
 fetchDataAndCreateChart('dataScrap/speaker_appr.json', 'speakerChart', 'Harga Rata-Rata Speaker', 'speakerFilterSlider', 'speakerFilterLabel', 'speakerOrderSelect', 'speaker');
 fetchDataAndCreateChart('dataScrap/tas_laptop_appr.json', 'tasLaptopChart', 'Harga Rata-Rata Tas Laptop', 'tasLaptopFilterSlider', 'tasLaptopFilterLabel', 'tasLaptopOrderSelect', 'tas_laptop');
 fetchDataAndCreateChart('dataScrap/webcam_appr.json', 'webcamChart', 'Harga Rata-Rata Webcam', 'webcamFilterSlider', 'webcamFilterLabel', 'webcamOrderSelect', 'webcam');
+
+fetchDataAndCreateChart('dataScrap/headphone_appr.json', 'headphoneHorizontalChart', 'Harga Rata-Rata Headphone', 'headphoneFilterSliderHChart', 'headphoneFilterLabelHChart', 'headphoneOrderSelectHChart', 'headphone','horizontalBar');
+fetchDataAndCreateChart('dataScrap/keyboard_appr.json', 'keyboardHorizontalChart', 'Harga Rata-Rata Keyboard', 'keyboardFilterSliderHChart', 'keyboardFilterLabelHChart', 'keyboardOrderSelectHChart', 'keyboard','horizontalBar');
+fetchDataAndCreateChart('dataScrap/monitor_appr.json', 'monitorHorizontalChart', 'Harga Rata-Rata Monitor', 'monitorFilterSliderHChart', 'monitorFilterLabelHChart', 'monitorOrderSelectHChart', 'monitor','horizontalBar');
+fetchDataAndCreateChart('dataScrap/mouse_appr.json', 'mouseHorizontalChart', 'Harga Rata-Rata Mouse', 'mouseFilterSliderHChart', 'mouseFilterLabelHChart', 'mouseOrderSelectHChart', 'mouse','horizontalBar');
+fetchDataAndCreateChart('dataScrap/speaker_appr.json', 'speakerHorizontalChart', 'Harga Rata-Rata Speaker', 'speakerFilterSliderHChart', 'speakerFilterLabelHChart', 'speakerOrderSelectHChart', 'speaker','horizontalBar');
+fetchDataAndCreateChart('dataScrap/tas_laptop_appr.json', 'tasLaptopHorizontalChart', 'Harga Rata-Rata Tas Laptop', 'tasLaptopFilterSliderHChart', 'tasLaptopFilterLabelHChart', 'tasLaptopOrderSelectHChart', 'tas_laptop','horizontalBar');
+fetchDataAndCreateChart('dataScrap/webcam_appr.json', 'webcamHorizontalChart', 'Harga Rata-Rata Webcam', 'webcamFilterSliderHChart', 'webcamFilterLabelHChart', 'webcamOrderSelectHChart', 'webcam','horizontalBar');
