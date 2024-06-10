@@ -144,19 +144,6 @@ function visualizeApproximateItem(itemName){
               text: 'Merek'
             }
           }
-        },
-        plugins: {
-          tooltip: {
-            callbacks: {
-              label: function (context) {
-                const label = context.label || '';
-                const value = context.raw;
-                const customMessage = `Merek: ${label}`;
-                const ratingMessage = `Harga Rata-Rata: ${formatCurrencyToIDR(value)}`;
-                return [customMessage, ratingMessage];
-              }
-            }
-          }
         }
       }
     });
