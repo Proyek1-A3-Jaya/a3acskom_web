@@ -73,18 +73,7 @@ https://templatemo.com/tm-584-pod-talk
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-
-                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="listing-page.html">Listing Page</a></li>
-
-                                <li><a class="dropdown-item" href="detail-page.html">Detail Page</a></li>
-                            </ul>
+                            <a class="nav-link" href="about.html">Dashboard</a>
                         </li>
 
                         <li class="nav-item">
@@ -259,185 +248,163 @@ https://templatemo.com/tm-584-pod-talk
             </div>
         </section>
 
+        <section class="about-section section-padding" id="section_2">
+            <div class="container">
+                <div class="row">
 
-        <section class="dataVisual">
-            <div class="container">
-                <h4 class="section-title">Total Terjual Per Kategori</h4>
-                <div>
-                    <canvas id="totalTerjual"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Headphone</h4>
-                <div>
-                    <label for="headphoneFilterSliderHChart" id="headphoneFilterLabelHChart"></label>
-                    <input type="range" id="headphoneFilterSliderHChart">
-                    <select id="headphoneOrderSelectHChart">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="headphoneHorizontalChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Keyboard</h4>
-                <div>
-                    <label for="keyboardFilterSliderHChart" id="keyboardFilterLabelHChart"></label>
-                    <input type="range" id="keyboardFilterSliderHChart">
-                    <select id="keyboardOrderSelectHChart">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="keyboardHorizontalChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Monitor</h4>
-                <div>
-                    <label for="monitorFilterSliderHChart" id="monitorFilterLabelHChart"></label>
-                    <input type="range" id="monitorFilterSliderHChart">
-                    <select id="monitorOrderSelectHChart">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="monitorHorizontalChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Mouse</h4>
-                <div>
-                    <label for="mouseFilterSliderHChart" id="mouseFilterLabelHChart"></label>
-                    <input type="range" id="mouseFilterSliderHChart">
-                    <select id="mouseOrderSelectHChart">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="mouseHorizontalChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Speaker</h4>
-                <div>
-                    <label for="speakerFilterSliderHChart" id="speakerFilterLabelHChart"></label>
-                    <input type="range" id="speakerFilterSliderHChart">
-                    <select id="speakerOrderSelectHChart">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="speakerHorizontalChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Tas Laptop</h4>
-                <div>
-                    <label for="tasLaptopFilterSliderHChart" id="tasLaptopFilterLabelHChart"></label>
-                    <input type="range" id="tasLaptopFilterSliderHChart">
-                    <select id="tasLaptopOrderSelectHChart">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="tasLaptopHorizontalChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Harga Rerata Webcam</h4>
-                <div>
-                    <label for="webcamFilterSliderHChart" id="webcamFilterLabelHChart"></label>
-                    <input type="range" id="webcamFilterSliderHChart">
-                    <select id="webcamOrderSelectHChart">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="webcamHorizontalChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Perbandingan Harga Rerata & Penjualan Headphone</h4>
-                <div>
-                    <label for="headphoneFilterSlider" id="headphoneFilterLabel"></label>
-                    <input type="range" id="headphoneFilterSlider">
-                    <select id="headphoneOrderSelect">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="headphoneChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Perbandingan Harga Rerata & Penjualan Keyboard</h4>
-                <div>
-                    <label for="keyboardFilterSlider" id="keyboardFilterLabel"></label>
-                    <input type="range" id="keyboardFilterSlider">
-                    <select id="keyboardOrderSelect">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="keyboardChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Perbandingan Harga Rerata & Penjualan Monitor</h4>
-                <div>
-                    <label for="monitorFilterSlider" id="monitorFilterLabel"></label>
-                    <input type="range" id="monitorFilterSlider">
-                    <select id="monitorOrderSelect">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="monitorChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Perbandingan Harga Rerata & Penjualan Mouse</h4>
-                <div>
-                    <label for="mouseFilterSlider" id="mouseFilterLabel"></label>
-                    <input type="range" id="mouseFilterSlider">
-                    <select id="mouseOrderSelect">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="mouseChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Perbandingan Harga Rerata & Penjualan Speaker</h4>
-                <div>
-                    <label for="speakerFilterSlider" id="speakerFilterLabel"></label>
-                    <input type="range" id="speakerFilterSlider">
-                    <select id="speakerOrderSelect">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="speakerChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Perbandingan Harga Rerata & Penjualan Tas Laptop</h4>
-                <div>
-                    <label for="tasLaptopFilterSlider" id="tasLaptopFilterLabel"></label>
-                    <input type="range" id="tasLaptopFilterSlider">
-                    <select id="tasLaptopOrderSelect">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="tasLaptopChart"></canvas>
-                </div>
-            </div>
-            <div class="container">
-                <h4 class="section-title">Perbandingan Harga Rerata & Penjualan Webcam</h4>
-                <div>
-                    <label for="webcamFilterSlider" id="webcamFilterLabel"></label>
-                    <input type="range" id="webcamFilterSlider">
-                    <select id="webcamOrderSelect">
-                        <option value="descending">Descending</option>
-                        <option value="ascending">Ascending</option>
-                    </select>
-                    <canvas id="webcamChart"></canvas>
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <div class="pb-5 mb-5">
+                            <div class="section-title-wrap mb-4">
+                                <h4 class="section-title">Our story</h4>
+                            </div>
+
+                            <p>Pod Talk HTML CSS Template is made by Bootstrap v5.2.2 framework. You are allowed to
+                                modify and use this template for your business websites.</p>
+
+                            <p>You are not allowed to redistribute the downloadable template ZIP file on any other
+                                website without a permission. Please contact TemplateMo website for further information.
+                                Thank you.</p>
+
+                            <img src="images/medium-shot-young-people-recording-podcast.jpg"
+                                class="about-image mt-5 img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h4 class="section-title">Meet podcaters</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="team-thumb bg-white shadow-lg">
+                            <img src="images/profile/cute-smiling-woman-outdoor-portrait.jpg"
+                                class="about-image img-fluid" alt="">
+
+                            <div class="team-info">
+                                <h4 class="mb-2">
+                                    Taylor
+                                    <img src="images/verified.png" class="verified-image img-fluid" alt="">
+                                </h4>
+
+                                <span class="badge">Modeling</span>
+
+                                <span class="badge">Fashion</span>
+                            </div>
+
+                            <div class="social-share">
+                                <ul class="social-icon">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-twitter"></a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook"></a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-pinterest"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="team-thumb bg-white shadow-lg">
+                            <img src="images/profile/handsome-asian-man-listening-music-through-headphones.jpg"
+                                class="about-image img-fluid" alt="">
+
+                            <div class="team-info">
+                                <h4 class="mb-2">
+                                    William
+                                    <img src="images/verified.png" class="verified-image img-fluid" alt="">
+                                </h4>
+
+                                <span class="badge">Creative</span>
+
+                                <span class="badge">Design</span>
+                            </div>
+
+                            <div class="social-share">
+                                <ul class="social-icon">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-twitter"></a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook"></a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-pinterest"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-0">
+                        <div class="team-thumb bg-white shadow-lg">
+                            <img src="images/profile/smart-attractive-asian-glasses-male-standing-smile-with-freshness-joyful-casual-blue-shirt-portrait-white-background.jpg"
+                                class="about-image img-fluid" alt="">
+
+                            <div class="team-info">
+                                <h4 class="mb-2">
+                                    Chan
+                                    <img src="images/verified.png" class="verified-image img-fluid" alt="">
+                                </h4>
+
+                                <span class="badge">Education</span>
+                            </div>
+
+                            <div class="social-share">
+                                <ul class="social-icon">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-linkedin"></a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="team-thumb bg-white shadow-lg">
+                            <img src="images/profile/smiling-business-woman-with-folded-hands-against-white-wall-toothy-smile-crossed-arms.jpg"
+                                class="about-image img-fluid" alt="">
+
+                            <div class="team-info">
+                                <h4 class="mb-2">
+                                    Candice
+                                    <img src="images/verified.png" class="verified-image img-fluid" alt="">
+                                </h4>
+
+                                <span class="badge">Storytelling</span>
+
+                                <span class="badge">Business</span>
+                            </div>
+
+                            <div class="social-share">
+                                <ul class="social-icon">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-twitter"></a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-
-
 
 
         <footer class="site-footer">
