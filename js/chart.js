@@ -155,12 +155,10 @@ function visualizeApproximateItem(itemName){
               label: function (context) {
                 const label = context.label || '';
                 const value = context.raw;
-                const rating = itemData.find(item => item.merek === label).rerata_rating;
 
                 const customMessage = `Merek: ${label}`;
                 const hargaRataRataMessage = `Harga Rata-Rata: ${formatCurrencyToIDR(value)}`;
-                const ratingMessage = `Rating: ${rating}`;
-                return [customMessage, hargaRataRataMessage, ratingMessage];
+                return [customMessage, hargaRataRataMessage];
               }
             }
           }
@@ -177,10 +175,12 @@ function visualizeApproximateItem(itemName){
       if(currentItem !== itemType.value){
         currentItem = itemType.value;
         await fetchItemData(currentItem).then(newItemData => {
-          slicedData = newItemData.slice(0, numBrands);
+          slider.value = 10;
+          slider.max = newItemData.length;
+          slicedData = newItemData.slice(0, 10);
+          sliderLabel.textContent = `Jumlah merek yang ditampilkan: 10`;
         })
 
-        slider.max = slicedData.length;
       }
 
       const newData = order === 'ascending' ?
@@ -271,10 +271,12 @@ function visualizeTotalSales(itemName){
       if(currentItem !== itemType.value){
         currentItem = itemType.value;
         await fetchItemData(currentItem).then(newItemData => {
-          slicedData = newItemData.slice(0, numBrands);
+          slider.value = 10;
+          slider.max = newItemData.length;
+          slicedData = newItemData.slice(0, 10);
+          sliderLabel.textContent = `Jumlah merek yang ditampilkan: 10`;
         })
 
-        slider.max = slicedData.length;
       }
 
       const newData = order === 'ascending' ?
@@ -369,7 +371,19 @@ function visualizeApproximateAndTotalSales(itemName){
         plugins: {
           tooltip: {
             mode: 'index',
-            intersect: false
+            intersect: false,
+            callbacks: {
+              label: function (context) {
+                const label = context.label || '';
+                const value = context.raw;
+
+                const customMessage = `Merek: ${label}`;
+                const rating = itemData.find(item => item.merek === label).rerata_rating;
+                
+                const ratingMessage = `Rating: ${rating}`;
+                return [customMessage, ratingMessage];
+              }
+            }
           },
           legend: {
             position: 'top'
@@ -391,10 +405,12 @@ function visualizeApproximateAndTotalSales(itemName){
       if(currentItem !== itemType.value){
         currentItem = itemType.value;
         await fetchItemData(currentItem).then(newItemData => {
-          slicedData = newItemData.slice(0, numBrands);
+          slider.value = 10;
+          slider.max = newItemData.length;
+          slicedData = newItemData.slice(0, 10);
+          sliderLabel.textContent = `Jumlah merek yang ditampilkan: 10`;
         })
 
-        slider.max = slicedData.length;
       }
 
       const newData = order === 'ascending' ?
