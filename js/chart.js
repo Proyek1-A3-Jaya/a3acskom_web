@@ -156,9 +156,8 @@ function visualizeApproximateItem(itemName){
                 const label = context.label || '';
                 const value = context.raw;
 
-                const customMessage = `Merek: ${label}`;
                 const hargaRataRataMessage = `Harga Rata-Rata: ${formatCurrencyToIDR(value)}`;
-                return [customMessage, hargaRataRataMessage];
+                return [hargaRataRataMessage];
               }
             }
           }
