@@ -251,10 +251,6 @@ function visualizeTotalSales(itemName){
           }
         },
         plugins: {
-          tooltip: {
-            mode: 'index',
-            intersect: false
-          },
           legend: {
             position: 'top'
           }
@@ -383,6 +379,9 @@ function visualizeApproximateAndTotalSales(itemName){
                 const ratingMessage = `Rating: ${rating}`;
                 return [customMessage, ratingMessage];
               }
+            },
+            filter: function (chart) {
+              return chart.dataset.type === 'bar';
             }
           },
           legend: {
