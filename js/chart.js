@@ -2,6 +2,7 @@
 
 const approximateHorizontalChartContext = document.getElementById('ApproximateHorizontalChart');
 const approximateComparisonChartContext = document.getElementById('approximateComparisonChart');
+const approximateSalesChartContext = document.getElementById('approximateSalesChart');
 
 let dataLinks = {
   headphone: 'dataScrap/headphone_appr.json',
@@ -116,6 +117,9 @@ function visualizeApproximateItem(itemName){
     const labels = initialData.map(item => item.merek);
     const chartData = initialData.map(item => item.harga_rata_rata);
 
+    slider.min = 1;
+    slider.max = sortedData.length;
+
     const chart = new Chart(approximateHorizontalChartContext, {
       type: 'bar',
       data: {
@@ -151,9 +155,12 @@ function visualizeApproximateItem(itemName){
               label: function (context) {
                 const label = context.label || '';
                 const value = context.raw;
+                const rating = itemData.find(item => item.merek === label).rerata_rating;
+
                 const customMessage = `Merek: ${label}`;
-                const ratingMessage = `Harga Rata-Rata: ${formatCurrencyToIDR(value)}`;
-                return [customMessage, ratingMessage];
+                const hargaRataRataMessage = `Harga Rata-Rata: ${formatCurrencyToIDR(value)}`;
+                const ratingMessage = `Rating: ${rating}`;
+                return [customMessage, hargaRataRataMessage, ratingMessage];
               }
             }
           }
@@ -172,6 +179,8 @@ function visualizeApproximateItem(itemName){
         await fetchItemData(currentItem).then(newItemData => {
           slicedData = newItemData.slice(0, numBrands);
         })
+
+        slider.max = slicedData.length;
       }
 
       const newData = order === 'ascending' ?
@@ -184,6 +193,99 @@ function visualizeApproximateItem(itemName){
       chart.data.labels = labels;
       chart.data.datasets[0].label = `Harga Rata-Rata ${dataNames[currentItem]}`;
       chart.data.datasets[0].data = chartDataHarga;
+      chart.update();
+    }
+  
+    slider.addEventListener('input', updateData);
+    sortType.addEventListener('change', updateData);
+    itemType.addEventListener('change', updateData);
+  });
+}
+
+function visualizeTotalSales(itemName){
+  const sliderLabel = document.getElementById('approximateSalesBrandNumberLabel');
+  const slider = document.getElementById('approximateSalesBrandNumber');
+  const itemType = document.getElementById('approximateSalesItemType');
+  const sortType = document.getElementById('approximateSalesSortType');
+
+  fetchItemData(itemName).then(itemData => {
+    const sortedData = itemData.sort((a, b) => b.terjual - a.terjual);
+    const initialData = sortedData.slice(0, 10);
+
+    let currentItem = itemName;
+    const labels = initialData.map(item => item.merek);
+    const chartDataTerjual = initialData.map(item => item.terjual);
+
+    slider.min = 1;
+    slider.max = sortedData.length;
+
+    const chart = new Chart(approximateSalesChartContext, {
+      data: {
+        labels: labels,
+        datasets: [
+          {
+            type: 'bar',
+            label: 'Total Terjual',
+            data: chartDataTerjual,
+            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1,
+          },
+        ]
+      },
+      options: {
+        indexAxis: 'y',
+        scales: {
+          x: {
+            beginAtZero: true,
+            title: {
+              display: true,
+              text: 'Total Terjual'
+            }
+          },
+          y: {
+            title: {
+              display: true,
+              text: 'Merek'
+            }
+          }
+        },
+        plugins: {
+          tooltip: {
+            mode: 'index',
+            intersect: false
+          },
+          legend: {
+            position: 'top'
+          }
+        },
+      }
+    });  
+
+    async function updateData() {
+      const numBrands = slider.value;
+      const order = sortType.value;
+      sliderLabel.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
+  
+      let slicedData = itemData.slice(0, numBrands);
+      if(currentItem !== itemType.value){
+        currentItem = itemType.value;
+        await fetchItemData(currentItem).then(newItemData => {
+          slicedData = newItemData.slice(0, numBrands);
+        })
+
+        slider.max = slicedData.length;
+      }
+
+      const newData = order === 'ascending' ?
+        slicedData.sort((a, b) => a.terjual - b.terjual) :
+        slicedData.sort((a, b) => b.terjual - a.terjual);
+      
+      const labels = newData.map(item => item.merek);
+      const chartDataTerjual = newData.map(item => item.terjual); 
+
+      chart.data.labels = labels;
+      chart.data.datasets[0].data = chartDataTerjual;
       chart.update();
     }
   
@@ -207,6 +309,9 @@ function visualizeApproximateAndTotalSales(itemName){
     const labels = initialData.map(item => item.merek);
     const chartDataHarga = initialData.map(item => item.harga_rata_rata);
     const chartDataTerjual = initialData.map(item => item.terjual);
+
+    slider.min = 1;
+    slider.max = sortedData.length;
 
     const chart = new Chart(approximateComparisonChartContext, {
       data: {
@@ -288,6 +393,8 @@ function visualizeApproximateAndTotalSales(itemName){
         await fetchItemData(currentItem).then(newItemData => {
           slicedData = newItemData.slice(0, numBrands);
         })
+
+        slider.max = slicedData.length;
       }
 
       const newData = order === 'ascending' ?
@@ -312,4 +419,5 @@ function visualizeApproximateAndTotalSales(itemName){
 
 visualizeTotalTerjual();
 visualizeApproximateItem('headphone');
+visualizeTotalSales('headphone');
 visualizeApproximateAndTotalSales('headphone');

@@ -103,7 +103,7 @@ https://templatemo.com/tm-584-pod-talk
                         <input type="range" class="form-range" id="approximateBrandNumber">
                     </div>
                     <div class="col">
-                        <label for="tipeBarang">Pilih Barang</label>
+                        <label for="approximateItemType">Pilih Barang</label>
                         <select class="form-select" id="approximateItemType">
                             <option value="headphone">Headphone</option>
                             <option value="keyboard">Keyboard</option>
@@ -124,6 +124,39 @@ https://templatemo.com/tm-584-pod-talk
                 </div>
                 <div class="row">
                     <canvas id="ApproximateHorizontalChart"></canvas>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h4 class="section-title">Aproximasi Penjualan Barang</h4>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="approximateSalesBrandNumber" id="approximateSalesBrandNumberLabel">Jumlah merek yang ditampilkan: 10</label>
+                        <input type="range" class="form-range" id="approximateSalesBrandNumber">
+                    </div>
+                    <div class="col">
+                        <label for="approximateSalesItemType">Pilih Barang</label>
+                        <select class="form-select" id="approximateSalesItemType">
+                            <option value="headphone">Headphone</option>
+                            <option value="keyboard">Keyboard</option>
+                            <option value="monitor">Monitor</option>
+                            <option value="mouse">Mouse</option>
+                            <option value="speaker">Speaker</option>
+                            <option value="tas_laptop">Tas Laptop</option>
+                            <option value="webcam">Webcam</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="approximateSalesSortType">Order</label>
+                        <select class="form-select" id="approximateSalesSortType">
+                            <option value="descending">Descending</option>
+                            <option value="ascending">Ascending</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <canvas id="approximateSalesChart"></canvas>
                 </div>
             </div>
             <div class="container">
