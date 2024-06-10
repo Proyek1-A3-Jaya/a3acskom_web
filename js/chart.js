@@ -374,10 +374,12 @@ function visualizeApproximateAndTotalSales(itemName){
                 const value = context.raw;
 
                 const customMessage = `Merek: ${label}`;
+                const hargaRataRataMessage = `Harga Rata-Rata: ${formatCurrencyToIDR(value)}`;
+                const totalTerjual = `Total Terjual: ${itemData.find(item => item.merek === label).terjual}`;
                 const rating = itemData.find(item => item.merek === label).rerata_rating;
                 
                 const ratingMessage = `Rating: ${rating}`;
-                return [customMessage, ratingMessage];
+                return [customMessage, hargaRataRataMessage, totalTerjual, ratingMessage];
               }
             },
             filter: function (chart) {
