@@ -11,7 +11,7 @@ const searchTerm = urlParams.get('search');
 
 if (searchTerm) {
     // Fetch index.html
-    fetch('index.html')
+    fetch('about.html')
         .then(response => response.text())
         .then(data => {
             // Create a temporary DOM element to parse the fetched HTML
