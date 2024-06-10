@@ -1,706 +1,587 @@
 [
   {
-    "merek": "Logitech",
-    "jumlah_produk": 163,
-    "terjual": 187999,
-    "harga_tertinggi": 3799000,
-    "harga_terendah": 10000,
-    "harga_rata_rata": 476370.67
+    "merek": "Angry Miao",
+    "jumlah_produk": 5,
+    "terjual": 0,
+    "harga_tertinggi": 17850000,
+    "harga_terendah": 17850000,
+    "harga_rata_rata": 17850000.0,
+    "rerata_rating": 0.0
   },
   {
     "merek": "HP",
-    "jumlah_produk": 153,
-    "terjual": 13794,
-    "harga_tertinggi": 874900,
-    "harga_terendah": 30000,
-    "harga_rata_rata": 148122.84
-  },
-  {
-    "merek": "ASUS",
-    "jumlah_produk": 191,
-    "terjual": 89164,
-    "harga_tertinggi": 4049000,
-    "harga_terendah": 25000,
-    "harga_rata_rata": 460882.37
-  },
-  {
-    "merek": "IdeaPad",
-    "jumlah_produk": 69,
-    "terjual": 11480,
-    "harga_tertinggi": 400000,
-    "harga_terendah": 42000,
-    "harga_rata_rata": 108562.32
-  },
-  {
-    "merek": "Digital Alliance",
-    "jumlah_produk": 42,
-    "terjual": 5413,
-    "harga_tertinggi": 599000,
-    "harga_terendah": 189000,
-    "harga_rata_rata": 345790.52
-  },
-  {
-    "merek": "Koodo",
-    "jumlah_produk": 4,
-    "terjual": 1500,
-    "harga_tertinggi": 850000,
-    "harga_terendah": 499000,
-    "harga_rata_rata": 615500.0
-  },
-  {
-    "merek": "NYK",
-    "jumlah_produk": 97,
-    "terjual": 10773,
-    "harga_tertinggi": 526000,
-    "harga_terendah": 62000,
-    "harga_rata_rata": 181513.32
-  },
-  {
-    "merek": "MONSGEEK",
-    "jumlah_produk": 6,
-    "terjual": 108,
-    "harga_tertinggi": 2499000,
-    "harga_terendah": 399000,
-    "harga_rata_rata": 1199000.0
-  },
-  {
-    "merek": "Altec",
-    "jumlah_produk": 18,
-    "terjual": 3185,
-    "harga_tertinggi": 375000,
-    "harga_terendah": 49000,
-    "harga_rata_rata": 260444.44
-  },
-  {
-    "merek": "Keychron",
-    "jumlah_produk": 3,
-    "terjual": 300,
-    "harga_tertinggi": 550000,
-    "harga_terendah": 550000,
-    "harga_rata_rata": 550000.0
-  },
-  {
-    "merek": "Toshiba",
-    "jumlah_produk": 30,
-    "terjual": 6423,
-    "harga_tertinggi": 250000,
-    "harga_terendah": 41000,
-    "harga_rata_rata": 90593.23
-  },
-  {
-    "merek": "Rexus",
-    "jumlah_produk": 168,
-    "terjual": 20383,
-    "harga_tertinggi": 1509000,
-    "harga_terendah": 10000,
-    "harga_rata_rata": 299663.19
-  },
-  {
-    "merek": "Acome",
-    "jumlah_produk": 2,
-    "terjual": 8000,
-    "harga_tertinggi": 143000,
-    "harga_terendah": 142900,
-    "harga_rata_rata": 142950.0
+    "jumlah_produk": 238,
+    "terjual": 28702,
+    "harga_tertinggi": 1900000,
+    "harga_terendah": 2800,
+    "harga_rata_rata": 215721.84,
+    "rerata_rating": 4.0
   },
   {
     "merek": "Lainnya",
-    "jumlah_produk": 412,
-    "terjual": 97158,
-    "harga_tertinggi": 6680000,
-    "harga_terendah": 450,
-    "harga_rata_rata": 427414.99
+    "jumlah_produk": 681,
+    "terjual": 201640,
+    "harga_tertinggi": 9200000,
+    "harga_terendah": 700,
+    "harga_rata_rata": 254217.37,
+    "rerata_rating": 4.6
+  },
+  {
+    "merek": "Acer",
+    "jumlah_produk": 34,
+    "terjual": 5493,
+    "harga_tertinggi": 398500,
+    "harga_terendah": 20000,
+    "harga_rata_rata": 112570.59,
+    "rerata_rating": 2.9
+  },
+  {
+    "merek": "ASUS",
+    "jumlah_produk": 122,
+    "terjual": 51853,
+    "harga_tertinggi": 220000,
+    "harga_terendah": 39000,
+    "harga_rata_rata": 83641.8,
+    "rerata_rating": 4.5
+  },
+  {
+    "merek": "Logitech",
+    "jumlah_produk": 355,
+    "terjual": 259800,
+    "harga_tertinggi": 3999000,
+    "harga_terendah": 10000,
+    "harga_rata_rata": 466884.44,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "M-Tech",
+    "jumlah_produk": 68,
+    "terjual": 21901,
+    "harga_tertinggi": 125000,
+    "harga_terendah": 15000,
+    "harga_rata_rata": 60527.06,
+    "rerata_rating": 4.6
+  },
+  {
+    "merek": "Robot",
+    "jumlah_produk": 56,
+    "terjual": 21816,
+    "harga_tertinggi": 499000,
+    "harga_terendah": 63000,
+    "harga_rata_rata": 144311.07,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "Lenovo",
+    "jumlah_produk": 76,
+    "terjual": 6783,
+    "harga_tertinggi": 683000,
+    "harga_terendah": 9990,
+    "harga_rata_rata": 139561.71,
+    "rerata_rating": 4.3
+  },
+  {
+    "merek": "ThinkPad",
+    "jumlah_produk": 58,
+    "terjual": 8131,
+    "harga_tertinggi": 575000,
+    "harga_terendah": 7300,
+    "harga_rata_rata": 394401.72,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Toshiba",
+    "jumlah_produk": 26,
+    "terjual": 6801,
+    "harga_tertinggi": 265000,
+    "harga_terendah": 41000,
+    "harga_rata_rata": 89970.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Profftech",
+    "jumlah_produk": 5,
+    "terjual": 1018,
+    "harga_tertinggi": 61080,
+    "harga_terendah": 53500,
+    "harga_rata_rata": 55886.2,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Dell",
+    "jumlah_produk": 77,
+    "terjual": 4921,
+    "harga_tertinggi": 1243000,
+    "harga_terendah": 19000,
+    "harga_rata_rata": 178153.25,
+    "rerata_rating": 3.7
+  },
+  {
+    "merek": "Aspire",
+    "jumlah_produk": 70,
+    "terjual": 18616,
+    "harga_tertinggi": 459000,
+    "harga_terendah": 42000,
+    "harga_rata_rata": 96288.57,
+    "rerata_rating": 4.5
+  },
+  {
+    "merek": "Rexus",
+    "jumlah_produk": 65,
+    "terjual": 13996,
+    "harga_tertinggi": 599000,
+    "harga_terendah": 59000,
+    "harga_rata_rata": 226940.77,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "Switch",
+    "jumlah_produk": 113,
+    "terjual": 186571,
+    "harga_tertinggi": 3300000,
+    "harga_terendah": 500,
+    "harga_rata_rata": 68817.98,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "IdeaPad",
+    "jumlah_produk": 83,
+    "terjual": 15906,
+    "harga_tertinggi": 340000,
+    "harga_terendah": 43900,
+    "harga_rata_rata": 108501.2,
+    "rerata_rating": 4.4
+  },
+  {
+    "merek": "Acome",
+    "jumlah_produk": 3,
+    "terjual": 6094,
+    "harga_tertinggi": 151888,
+    "harga_terendah": 144900,
+    "harga_rata_rata": 147229.33,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "NYK",
+    "jumlah_produk": 27,
+    "terjual": 3207,
+    "harga_tertinggi": 313500,
+    "harga_terendah": 83750,
+    "harga_rata_rata": 155705.37,
+    "rerata_rating": 4.5
+  },
+  {
+    "merek": "Xiaomi",
+    "jumlah_produk": 15,
+    "terjual": 2627,
+    "harga_tertinggi": 1589000,
+    "harga_terendah": 149900,
+    "harga_rata_rata": 514593.33,
+    "rerata_rating": 4.9
   },
   {
     "merek": "Fantech",
-    "jumlah_produk": 89,
-    "terjual": 4167,
-    "harga_tertinggi": 1503000,
+    "jumlah_produk": 48,
+    "terjual": 3317,
+    "harga_tertinggi": 699000,
     "harga_terendah": 85000,
-    "harga_rata_rata": 418606.74
+    "harga_rata_rata": 201018.75,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "OLYPS",
+    "jumlah_produk": 19,
+    "terjual": 3544,
+    "harga_tertinggi": 200880,
+    "harga_terendah": 47800,
+    "harga_rata_rata": 84803.68,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "AJAZZ",
+    "jumlah_produk": 11,
+    "terjual": 2503,
+    "harga_tertinggi": 1452000,
+    "harga_terendah": 369000,
+    "harga_rata_rata": 823090.91,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Zyrex",
+    "jumlah_produk": 2,
+    "terjual": 90,
+    "harga_tertinggi": 240000,
+    "harga_terendah": 30000,
+    "harga_rata_rata": 135000.0,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "JETE",
+    "jumlah_produk": 8,
+    "terjual": 546,
+    "harga_tertinggi": 259900,
+    "harga_terendah": 71900,
+    "harga_rata_rata": 142725.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Apple",
+    "jumlah_produk": 36,
+    "terjual": 4721,
+    "harga_tertinggi": 5180000,
+    "harga_terendah": 29000,
+    "harga_rata_rata": 1924555.5,
+    "rerata_rating": 4.4
+  },
+  {
+    "merek": "Alcatroz",
+    "jumlah_produk": 14,
+    "terjual": 3851,
+    "harga_tertinggi": 114000,
+    "harga_terendah": 45000,
+    "harga_rata_rata": 89071.43,
+    "rerata_rating": 4.6
+  },
+  {
+    "merek": "Genius",
+    "jumlah_produk": 9,
+    "terjual": 456,
+    "harga_tertinggi": 102600,
+    "harga_terendah": 65000,
+    "harga_rata_rata": 88722.22,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "CLIPtec",
+    "jumlah_produk": 10,
+    "terjual": 1874,
+    "harga_tertinggi": 248000,
+    "harga_terendah": 55000,
+    "harga_rata_rata": 113604.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Rockware",
+    "jumlah_produk": 7,
+    "terjual": 193,
+    "harga_tertinggi": 874900,
+    "harga_terendah": 148900,
+    "harga_rata_rata": 553757.14,
+    "rerata_rating": 4.8
+  },
+  {
+    "merek": "MSI",
+    "jumlah_produk": 5,
+    "terjual": 128,
+    "harga_tertinggi": 465000,
+    "harga_terendah": 337000,
+    "harga_rata_rata": 415400.0,
+    "rerata_rating": 2.0
+  },
+  {
+    "merek": "Cooler Master",
+    "jumlah_produk": 4,
+    "terjual": 255,
+    "harga_tertinggi": 699000,
+    "harga_terendah": 199200,
+    "harga_rata_rata": 456550.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "8BitDo",
+    "jumlah_produk": 2,
+    "terjual": 118,
+    "harga_tertinggi": 1095000,
+    "harga_terendah": 1095000,
+    "harga_rata_rata": 1095000.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Altec",
+    "jumlah_produk": 7,
+    "terjual": 695,
+    "harga_tertinggi": 239000,
+    "harga_terendah": 122000,
+    "harga_rata_rata": 182500.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Gamen",
+    "jumlah_produk": 10,
+    "terjual": 11920,
+    "harga_tertinggi": 569000,
+    "harga_terendah": 195900,
+    "harga_rata_rata": 280346.6,
+    "rerata_rating": 4.4
   },
   {
     "merek": "Axioo",
     "jumlah_produk": 16,
-    "terjual": 961,
-    "harga_tertinggi": 900000,
-    "harga_terendah": 82000,
-    "harga_rata_rata": 304740.62
+    "terjual": 1392,
+    "harga_tertinggi": 350000,
+    "harga_terendah": 62000,
+    "harga_rata_rata": 158921.88,
+    "rerata_rating": 4.0
   },
   {
-    "merek": "Leopard",
-    "jumlah_produk": 3,
-    "terjual": 230,
-    "harga_tertinggi": 118300,
-    "harga_terendah": 75750,
-    "harga_rata_rata": 102983.33
-  },
-  {
-    "merek": "Komic",
-    "jumlah_produk": 10,
-    "terjual": 1460,
-    "harga_tertinggi": 1199000,
-    "harga_terendah": 105000,
-    "harga_rata_rata": 297000.0
-  },
-  {
-    "merek": "M-Tech",
-    "jumlah_produk": 28,
-    "terjual": 16832,
-    "harga_tertinggi": 135000,
-    "harga_terendah": 15000,
-    "harga_rata_rata": 53884.14
-  },
-  {
-    "merek": "Cooler Master",
-    "jumlah_produk": 34,
-    "terjual": 681,
-    "harga_tertinggi": 1271000,
-    "harga_terendah": 50000,
-    "harga_rata_rata": 552764.71
-  },
-  {
-    "merek": "Lenovo",
-    "jumlah_produk": 40,
-    "terjual": 7906,
-    "harga_tertinggi": 1199900,
-    "harga_terendah": 9900,
-    "harga_rata_rata": 118666.25
-  },
-  {
-    "merek": "Aspire",
-    "jumlah_produk": 64,
-    "terjual": 23776,
-    "harga_tertinggi": 110599,
-    "harga_terendah": 35000,
-    "harga_rata_rata": 62129.59
-  },
-  {
-    "merek": "Angry Miao",
-    "jumlah_produk": 6,
-    "terjual": 0,
-    "harga_tertinggi": 18700000,
-    "harga_terendah": 17850000,
-    "harga_rata_rata": 18275000.0
-  },
-  {
-    "merek": "Redragon",
-    "jumlah_produk": 32,
-    "terjual": 9551,
-    "harga_tertinggi": 870000,
-    "harga_terendah": 65000,
-    "harga_rata_rata": 400946.88
-  },
-  {
-    "merek": "MSI",
-    "jumlah_produk": 30,
-    "terjual": 480,
-    "harga_tertinggi": 3400000,
-    "harga_terendah": 235000,
-    "harga_rata_rata": 744266.67
-  },
-  {
-    "merek": "Gamen",
-    "jumlah_produk": 29,
-    "terjual": 11836,
-    "harga_tertinggi": 999000,
-    "harga_terendah": 188900,
-    "harga_rata_rata": 324375.72
-  },
-  {
-    "merek": "Switch",
-    "jumlah_produk": 155,
-    "terjual": 270782,
-    "harga_tertinggi": 2199000,
-    "harga_terendah": 500,
-    "harga_rata_rata": 181791.66
-  },
-  {
-    "merek": "Armaggeddon",
-    "jumlah_produk": 15,
-    "terjual": 2301,
-    "harga_tertinggi": 899000,
-    "harga_terendah": 145000,
-    "harga_rata_rata": 271600.0
-  },
-  {
-    "merek": "ThinkPad",
-    "jumlah_produk": 67,
-    "terjual": 13322,
-    "harga_tertinggi": 530000,
-    "harga_terendah": 7000,
-    "harga_rata_rata": 221665.64
-  },
-  {
-    "merek": "Imperion",
-    "jumlah_produk": 16,
-    "terjual": 2343,
-    "harga_tertinggi": 575000,
-    "harga_terendah": 109000,
-    "harga_rata_rata": 251750.0
+    "merek": "Voxy",
+    "jumlah_produk": 1,
+    "terjual": 50,
+    "harga_tertinggi": 33900,
+    "harga_terendah": 33900,
+    "harga_rata_rata": 33900.0,
+    "rerata_rating": 4.9
   },
   {
     "merek": "VENOMRX",
     "jumlah_produk": 2,
-    "terjual": 120,
-    "harga_tertinggi": 85000,
-    "harga_terendah": 55000,
-    "harga_rata_rata": 70000.0
-  },
-  {
-    "merek": "VGN",
-    "jumlah_produk": 5,
-    "terjual": 94,
-    "harga_tertinggi": 1295000,
-    "harga_terendah": 495000,
-    "harga_rata_rata": 769600.0
-  },
-  {
-    "merek": "CIDOO",
-    "jumlah_produk": 7,
-    "terjual": 225,
-    "harga_tertinggi": 1749000,
-    "harga_terendah": 899000,
-    "harga_rata_rata": 1424714.29
-  },
-  {
-    "merek": "AJAZZ",
-    "jumlah_produk": 36,
-    "terjual": 2910,
-    "harga_tertinggi": 1499000,
-    "harga_terendah": 279000,
-    "harga_rata_rata": 626025.0
-  },
-  {
-    "merek": "Dell",
-    "jumlah_produk": 33,
-    "terjual": 2085,
-    "harga_tertinggi": 293500,
-    "harga_terendah": 10000,
-    "harga_rata_rata": 131754.55
-  },
-  {
-    "merek": "AULA",
-    "jumlah_produk": 27,
-    "terjual": 3643,
-    "harga_tertinggi": 939900,
+    "terjual": 45,
+    "harga_tertinggi": 65000,
     "harga_terendah": 65000,
-    "harga_rata_rata": 374970.37
+    "harga_rata_rata": 65000.0,
+    "rerata_rating": 5.0
   },
   {
-    "merek": "Noir",
-    "jumlah_produk": 18,
-    "terjual": 1100,
-    "harga_tertinggi": 2579000,
-    "harga_terendah": 809000,
-    "harga_rata_rata": 1433555.56
-  },
-  {
-    "merek": "Paradox",
-    "jumlah_produk": 27,
-    "terjual": 613,
-    "harga_tertinggi": 820000,
-    "harga_terendah": 335000,
-    "harga_rata_rata": 550777.78
-  },
-  {
-    "merek": "SteelSeries",
-    "jumlah_produk": 23,
-    "terjual": 1300,
-    "harga_tertinggi": 4750000,
-    "harga_terendah": 839000,
-    "harga_rata_rata": 2547826.09
-  },
-  {
-    "merek": "Divipard",
-    "jumlah_produk": 4,
-    "terjual": 36,
-    "harga_tertinggi": 279000,
-    "harga_terendah": 102000,
-    "harga_rata_rata": 192250.0
-  },
-  {
-    "merek": "Apple",
-    "jumlah_produk": 14,
-    "terjual": 1801,
-    "harga_tertinggi": 5180000,
-    "harga_terendah": 102000,
-    "harga_rata_rata": 1658214.29
-  },
-  {
-    "merek": "Vortex",
-    "jumlah_produk": 12,
-    "terjual": 625,
-    "harga_tertinggi": 1190000,
-    "harga_terendah": 575000,
-    "harga_rata_rata": 967458.33
-  },
-  {
-    "merek": "Alcatroz",
-    "jumlah_produk": 12,
-    "terjual": 2098,
-    "harga_tertinggi": 139000,
-    "harga_terendah": 54000,
-    "harga_rata_rata": 104750.0
-  },
-  {
-    "merek": "JETE",
+    "merek": "Microsoft",
     "jumlah_produk": 5,
-    "terjual": 474,
-    "harga_tertinggi": 199900,
-    "harga_terendah": 72500,
-    "harga_rata_rata": 173420.0
-  },
-  {
-    "merek": "Raptor",
-    "jumlah_produk": 6,
-    "terjual": 542,
-    "harga_tertinggi": 266500,
-    "harga_terendah": 95000,
-    "harga_rata_rata": 129529.67
-  },
-  {
-    "merek": "dBE",
-    "jumlah_produk": 2,
-    "terjual": 38,
-    "harga_tertinggi": 589000,
-    "harga_terendah": 579000,
-    "harga_rata_rata": 584000.0
-  },
-  {
-    "merek": "Press Play",
-    "jumlah_produk": 11,
-    "terjual": 1746,
-    "harga_tertinggi": 1249000,
-    "harga_terendah": 419000,
-    "harga_rata_rata": 868090.91
-  },
-  {
-    "merek": "Robot",
-    "jumlah_produk": 8,
-    "terjual": 7540,
-    "harga_tertinggi": 320900,
-    "harga_terendah": 63000,
-    "harga_rata_rata": 194312.5
-  },
-  {
-    "merek": "Zyrex",
-    "jumlah_produk": 3,
-    "terjual": 40,
-    "harga_tertinggi": 265000,
-    "harga_terendah": 20000,
-    "harga_rata_rata": 183333.33
-  },
-  {
-    "merek": "Infinix",
-    "jumlah_produk": 2,
-    "terjual": 60,
-    "harga_tertinggi": 350000,
-    "harga_terendah": 350000,
-    "harga_rata_rata": 350000.0
-  },
-  {
-    "merek": "Genius",
-    "jumlah_produk": 4,
-    "terjual": 243,
-    "harga_tertinggi": 185000,
-    "harga_terendah": 80000,
-    "harga_rata_rata": 118250.0
-  },
-  {
-    "merek": "Profftech",
-    "jumlah_produk": 1,
-    "terjual": 750,
-    "harga_tertinggi": 54972,
-    "harga_terendah": 54972,
-    "harga_rata_rata": 54972.0
-  },
-  {
-    "merek": "E-YOOSO",
-    "jumlah_produk": 18,
-    "terjual": 447,
-    "harga_tertinggi": 495000,
-    "harga_terendah": 287500,
-    "harga_rata_rata": 332388.89
-  },
-  {
-    "merek": "SAGE",
-    "jumlah_produk": 3,
-    "terjual": 784,
-    "harga_tertinggi": 399000,
-    "harga_terendah": 165000,
-    "harga_rata_rata": 310666.67
-  },
-  {
-    "merek": "OLYPS",
-    "jumlah_produk": 10,
-    "terjual": 3200,
-    "harga_tertinggi": 118000,
-    "harga_terendah": 49000,
-    "harga_rata_rata": 62700.0
-  },
-  {
-    "merek": "Bloody",
-    "jumlah_produk": 8,
-    "terjual": 931,
-    "harga_tertinggi": 825000,
-    "harga_terendah": 10000,
-    "harga_rata_rata": 554375.0
-  },
-  {
-    "merek": "8BitDo",
-    "jumlah_produk": 3,
-    "terjual": 44,
-    "harga_tertinggi": 1699000,
-    "harga_terendah": 1150000,
-    "harga_rata_rata": 1366000.0
-  },
-  {
-    "merek": "HyperX",
-    "jumlah_produk": 10,
-    "terjual": 206,
-    "harga_tertinggi": 2090000,
-    "harga_terendah": 285000,
-    "harga_rata_rata": 1257400.0
-  },
-  {
-    "merek": "SMARTDUCK",
-    "jumlah_produk": 1,
-    "terjual": 9,
-    "harga_tertinggi": 479000,
-    "harga_terendah": 479000,
-    "harga_rata_rata": 479000.0
-  },
-  {
-    "merek": "Acer",
-    "jumlah_produk": 11,
-    "terjual": 6428,
-    "harga_tertinggi": 150000,
-    "harga_terendah": 36000,
-    "harga_rata_rata": 84727.27
-  },
-  {
-    "merek": "Razer",
-    "jumlah_produk": 29,
-    "terjual": 815,
-    "harga_tertinggi": 4399000,
-    "harga_terendah": 25000,
-    "harga_rata_rata": 2105827.59
+    "terjual": 213,
+    "harga_tertinggi": 2628999,
+    "harga_terendah": 65000,
+    "harga_rata_rata": 945599.8,
+    "rerata_rating": 4.0
   },
   {
     "merek": "ZIFRIEND",
-    "jumlah_produk": 7,
-    "terjual": 787,
+    "jumlah_produk": 6,
+    "terjual": 622,
     "harga_tertinggi": 549000,
-    "harga_terendah": 199000,
-    "harga_rata_rata": 339985.71
+    "harga_terendah": 369000,
+    "harga_rata_rata": 425000.0,
+    "rerata_rating": 4.9
   },
   {
-    "merek": "Ducky",
-    "jumlah_produk": 12,
-    "terjual": 255,
-    "harga_tertinggi": 1895000,
-    "harga_terendah": 757000,
-    "harga_rata_rata": 1375500.0
-  },
-  {
-    "merek": "KiiP",
-    "jumlah_produk": 1,
-    "terjual": 50,
-    "harga_tertinggi": 199000,
-    "harga_terendah": 199000,
-    "harga_rata_rata": 199000.0
-  },
-  {
-    "merek": "Lecoo",
-    "jumlah_produk": 1,
-    "terjual": 100,
-    "harga_tertinggi": 106000,
-    "harga_terendah": 106000,
-    "harga_rata_rata": 106000.0
-  },
-  {
-    "merek": "Rockware",
-    "jumlah_produk": 8,
-    "terjual": 300,
-    "harga_tertinggi": 598900,
-    "harga_terendah": 194900,
-    "harga_rata_rata": 367412.5
-  },
-  {
-    "merek": "MiniShark",
-    "jumlah_produk": 2,
-    "terjual": 13,
-    "harga_tertinggi": 1299000,
-    "harga_terendah": 999000,
-    "harga_rata_rata": 1149000.0
+    "merek": "Rapoo",
+    "jumlah_produk": 5,
+    "terjual": 96,
+    "harga_tertinggi": 729000,
+    "harga_terendah": 121000,
+    "harga_rata_rata": 313000.0,
+    "rerata_rating": 4.8
   },
   {
     "merek": "Keycaps",
-    "jumlah_produk": 43,
-    "terjual": 8716,
-    "harga_tertinggi": 470000,
-    "harga_terendah": 2350,
-    "harga_rata_rata": 178412.19
+    "jumlah_produk": 8,
+    "terjual": 43,
+    "harga_tertinggi": 1200000,
+    "harga_terendah": 5000,
+    "harga_rata_rata": 404375.0,
+    "rerata_rating": 3.1
   },
   {
-    "merek": "CLIPtec",
+    "merek": "KiiP",
+    "jumlah_produk": 3,
+    "terjual": 156,
+    "harga_tertinggi": 369000,
+    "harga_terendah": 199000,
+    "harga_rata_rata": 259000.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "MONSGEEK",
+    "jumlah_produk": 3,
+    "terjual": 90,
+    "harga_tertinggi": 1049000,
+    "harga_terendah": 249000,
+    "harga_rata_rata": 599000.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Redragon",
+    "jumlah_produk": 8,
+    "terjual": 605,
+    "harga_tertinggi": 944000,
+    "harga_terendah": 284500,
+    "harga_rata_rata": 678250.0,
+    "rerata_rating": 3.7
+  },
+  {
+    "merek": "Lecoo",
+    "jumlah_produk": 5,
+    "terjual": 137,
+    "harga_tertinggi": 219000,
+    "harga_terendah": 86000,
+    "harga_rata_rata": 142800.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Digital Alliance",
+    "jumlah_produk": 8,
+    "terjual": 3646,
+    "harga_tertinggi": 379000,
+    "harga_terendah": 175000,
+    "harga_rata_rata": 282250.0,
+    "rerata_rating": 4.3
+  },
+  {
+    "merek": "Skyloong",
+    "jumlah_produk": 6,
+    "terjual": 3,
+    "harga_tertinggi": 675000,
+    "harga_terendah": 675000,
+    "harga_rata_rata": 675000.0,
+    "rerata_rating": 0.0
+  },
+  {
+    "merek": "CIDOO",
+    "jumlah_produk": 5,
+    "terjual": 108,
+    "harga_tertinggi": 1749000,
+    "harga_terendah": 1539000,
+    "harga_rata_rata": 1581000.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Keychron",
+    "jumlah_produk": 5,
+    "terjual": 496,
+    "harga_tertinggi": 1620000,
+    "harga_terendah": 400000,
+    "harga_rata_rata": 1137800.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "SteelSeries",
     "jumlah_produk": 2,
-    "terjual": 1019,
-    "harga_tertinggi": 250000,
-    "harga_terendah": 65000,
-    "harga_rata_rata": 157500.0
+    "terjual": 160,
+    "harga_tertinggi": 3299000,
+    "harga_terendah": 950000,
+    "harga_rata_rata": 2124500.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Vortex",
+    "jumlah_produk": 5,
+    "terjual": 462,
+    "harga_tertinggi": 1190000,
+    "harga_terendah": 430000,
+    "harga_rata_rata": 773200.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Noir",
+    "jumlah_produk": 7,
+    "terjual": 357,
+    "harga_tertinggi": 1599000,
+    "harga_terendah": 189000,
+    "harga_rata_rata": 839628.57,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Armaggeddon",
+    "jumlah_produk": 3,
+    "terjual": 344,
+    "harga_tertinggi": 327000,
+    "harga_terendah": 215000,
+    "harga_rata_rata": 253666.67,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Leopard",
+    "jumlah_produk": 1,
+    "terjual": 100,
+    "harga_tertinggi": 118300,
+    "harga_terendah": 118300,
+    "harga_rata_rata": 118300.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Imperion",
+    "jumlah_produk": 2,
+    "terjual": 590,
+    "harga_tertinggi": 125000,
+    "harga_terendah": 110000,
+    "harga_rata_rata": 117500.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Divipard",
+    "jumlah_produk": 5,
+    "terjual": 78,
+    "harga_tertinggi": 279000,
+    "harga_terendah": 84500,
+    "harga_rata_rata": 155860.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "Komic",
+    "jumlah_produk": 5,
+    "terjual": 918,
+    "harga_tertinggi": 249000,
+    "harga_terendah": 37200,
+    "harga_rata_rata": 98240.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "VGN",
+    "jumlah_produk": 2,
+    "terjual": 24,
+    "harga_tertinggi": 2345000,
+    "harga_terendah": 1950000,
+    "harga_rata_rata": 2147500.0,
+    "rerata_rating": 5.0
+  },
+  {
+    "merek": "Razer",
+    "jumlah_produk": 1,
+    "terjual": 250,
+    "harga_tertinggi": 649000,
+    "harga_terendah": 649000,
+    "harga_rata_rata": 649000.0,
+    "rerata_rating": 4.9
+  },
+  {
+    "merek": "SAGE",
+    "jumlah_produk": 1,
+    "terjual": 750,
+    "harga_tertinggi": 165000,
+    "harga_terendah": 165000,
+    "harga_rata_rata": 165000.0,
+    "rerata_rating": 4.8
   },
   {
     "merek": "Royal Kludge",
-    "jumlah_produk": 25,
-    "terjual": 3078,
-    "harga_tertinggi": 1349000,
-    "harga_terendah": 419000,
-    "harga_rata_rata": 801731.88
-  },
-  {
-    "merek": "LEOBOG",
-    "jumlah_produk": 2,
-    "terjual": 92,
-    "harga_tertinggi": 949000,
-    "harga_terendah": 949000,
-    "harga_rata_rata": 949000.0
-  },
-  {
-    "merek": "Xiaomi",
-    "jumlah_produk": 9,
-    "terjual": 2253,
-    "harga_tertinggi": 1049000,
-    "harga_terendah": 112000,
-    "harga_rata_rata": 425222.22
-  },
-  {
-    "merek": "Ventuz",
     "jumlah_produk": 3,
-    "terjual": 145,
-    "harga_tertinggi": 140000,
-    "harga_terendah": 140000,
-    "harga_rata_rata": 140000.0
+    "terjual": 127,
+    "harga_tertinggi": 1295000,
+    "harga_terendah": 689000,
+    "harga_rata_rata": 1011333.33,
+    "rerata_rating": 5.0
   },
   {
-    "merek": "Voxy",
-    "jumlah_produk": 2,
-    "terjual": 290,
-    "harga_tertinggi": 58500,
-    "harga_terendah": 55000,
-    "harga_rata_rata": 56750.0
+    "merek": "Press Play",
+    "jumlah_produk": 4,
+    "terjual": 1000,
+    "harga_tertinggi": 1249000,
+    "harga_terendah": 109000,
+    "harga_rata_rata": 721500.0,
+    "rerata_rating": 5.0
   },
   {
-    "merek": "Dark Alien",
-    "jumlah_produk": 1,
-    "terjual": 70,
-    "harga_tertinggi": 185000,
-    "harga_terendah": 185000,
-    "harga_rata_rata": 185000.0
+    "merek": "AULA",
+    "jumlah_produk": 4,
+    "terjual": 3375,
+    "harga_tertinggi": 399000,
+    "harga_terendah": 65000,
+    "harga_rata_rata": 243000.0,
+    "rerata_rating": 4.9
   },
   {
     "merek": "T-Wolf",
     "jumlah_produk": 1,
-    "terjual": 250,
-    "harga_tertinggi": 105000,
-    "harga_terendah": 105000,
-    "harga_rata_rata": 105000.0
-  },
-  {
-    "merek": "HXSJ",
-    "jumlah_produk": 2,
-    "terjual": 2,
-    "harga_tertinggi": 325000,
-    "harga_terendah": 325000,
-    "harga_rata_rata": 325000.0
-  },
-  {
-    "merek": "Dareu",
-    "jumlah_produk": 10,
-    "terjual": 187,
-    "harga_tertinggi": 1365000,
-    "harga_terendah": 329999,
-    "harga_rata_rata": 807999.8
-  },
-  {
-    "merek": "Chilkey",
-    "jumlah_produk": 1,
-    "terjual": 15,
-    "harga_tertinggi": 1099000,
-    "harga_terendah": 1099000,
-    "harga_rata_rata": 1099000.0
-  },
-  {
-    "merek": "Skyloong",
-    "jumlah_produk": 5,
-    "terjual": 10,
-    "harga_tertinggi": 1520000,
-    "harga_terendah": 675000,
-    "harga_rata_rata": 844000.0
-  },
-  {
-    "merek": "FEKER",
-    "jumlah_produk": 3,
-    "terjual": 26,
-    "harga_tertinggi": 4955200,
-    "harga_terendah": 649000,
-    "harga_rata_rata": 2184400.0
-  },
-  {
-    "merek": "Rapoo",
-    "jumlah_produk": 2,
-    "terjual": 8,
-    "harga_tertinggi": 350000,
-    "harga_terendah": 350000,
-    "harga_rata_rata": 350000.0
-  },
-  {
-    "merek": "Leopold",
-    "jumlah_produk": 9,
-    "terjual": 99,
-    "harga_tertinggi": 1440000,
-    "harga_terendah": 741280,
-    "harga_rata_rata": 1209610.0
-  },
-  {
-    "merek": "Sades",
-    "jumlah_produk": 13,
-    "terjual": 1087,
-    "harga_tertinggi": 1099000,
-    "harga_terendah": 149000,
-    "harga_rata_rata": 508615.38
-  },
-  {
-    "merek": "Inforce",
-    "jumlah_produk": 3,
-    "terjual": 1750,
-    "harga_tertinggi": 106000,
-    "harga_terendah": 61000,
-    "harga_rata_rata": 80000.0
-  },
-  {
-    "merek": "Glorious",
-    "jumlah_produk": 2,
-    "terjual": 114,
-    "harga_tertinggi": 2000000,
-    "harga_terendah": 1199000,
-    "harga_rata_rata": 1599500.0
-  },
-  {
-    "merek": "Varmilo",
-    "jumlah_produk": 1,
-    "terjual": 3,
-    "harga_tertinggi": 2645000,
-    "harga_terendah": 2645000,
-    "harga_rata_rata": 2645000.0
-  },
-  {
-    "merek": "Corsair",
-    "jumlah_produk": 3,
-    "terjual": 14,
-    "harga_tertinggi": 2749000,
-    "harga_terendah": 699000,
-    "harga_rata_rata": 1947666.67
+    "terjual": 28,
+    "harga_tertinggi": 115200,
+    "harga_terendah": 115200,
+    "harga_rata_rata": 115200.0,
+    "rerata_rating": 4.7
   }
 ]
