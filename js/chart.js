@@ -294,7 +294,6 @@ fetchDataAndCreateChart('dataScrap/mouse_appr.json', 'mouseChart', 'Harga Rata-R
 fetchDataAndCreateChart('dataScrap/speaker_appr.json', 'speakerChart', 'Harga Rata-Rata Speaker', 'speakerFilterSlider', 'speakerFilterLabel', 'speakerOrderSelect', 'speaker');
 fetchDataAndCreateChart('dataScrap/tas_laptop_appr.json', 'tasLaptopChart', 'Harga Rata-Rata Tas Laptop', 'tasLaptopFilterSlider', 'tasLaptopFilterLabel', 'tasLaptopOrderSelect', 'tas_laptop');
 fetchDataAndCreateChart('dataScrap/webcam_appr.json', 'webcamChart', 'Harga Rata-Rata Webcam', 'webcamFilterSlider', 'webcamFilterLabel', 'webcamOrderSelect', 'webcam');
-
 fetchDataAndCreateChart('dataScrap/headphone_appr.json', 'headphoneHorizontalChart', 'Harga Rata-Rata Headphone', 'headphoneFilterSliderHChart', 'headphoneFilterLabelHChart', 'headphoneOrderSelectHChart', 'headphone','horizontalBar');
 fetchDataAndCreateChart('dataScrap/keyboard_appr.json', 'keyboardHorizontalChart', 'Harga Rata-Rata Keyboard', 'keyboardFilterSliderHChart', 'keyboardFilterLabelHChart', 'keyboardOrderSelectHChart', 'keyboard','horizontalBar');
 fetchDataAndCreateChart('dataScrap/monitor_appr.json', 'monitorHorizontalChart', 'Harga Rata-Rata Monitor', 'monitorFilterSliderHChart', 'monitorFilterLabelHChart', 'monitorOrderSelectHChart', 'monitor','horizontalBar');
