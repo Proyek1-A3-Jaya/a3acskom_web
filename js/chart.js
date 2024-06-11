@@ -400,7 +400,7 @@ function visualizeApproximateAndTotalSales(itemName){
     });  
 
     async function updateData() {
-      const numBrands = slider.value;
+      let numBrands = slider.value;
       const order = sortType.value;
       sliderLabel.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
   
