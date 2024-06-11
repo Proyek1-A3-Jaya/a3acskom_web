@@ -377,8 +377,8 @@ function visualizeApproximateAndTotalSales(itemName){
                 const value = context.raw;
 
                 const hargaRataRataMessage = `Harga Rata-Rata: ${formatCurrencyToIDR(value)}`;
-                const totalTerjual = `Total Terjual: ${itemData.find(item => item.merek === label).terjual}`;
-                const rating = itemData.find(item => item.merek === label).rerata_rating;
+                const totalTerjual = `Total Terjual: ${sortedData.find(item => item.merek === label).terjual}`;
+                const rating = sortedData.find(item => item.merek === label).rerata_rating;
                 
                 const ratingMessage = `Rating: ${rating}`;
                 return [hargaRataRataMessage, totalTerjual, ratingMessage];
@@ -422,7 +422,7 @@ function visualizeApproximateAndTotalSales(itemName){
 
       const labels = slicedData.map(item => item.merek);
       const chartDataHarga = slicedData.map(item => item.harga_rata_rata);
-      const chartDataTerjual = slicedData.map(item => item.terjual); 
+      const chartDataTerjual = slicedData.map(item => item.terjual ?? ''); 
 
       chart.data.labels = labels;
       chart.data.datasets[0].data = chartDataHarga;
