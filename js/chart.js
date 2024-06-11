@@ -110,7 +110,7 @@ function visualizeApproximateItem(itemName){
   const sortType = document.getElementById('approximateSortType');
 
   fetchItemData(itemName).then(itemData => {
-    const sortedData = itemData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
+    let sortedData = itemData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
     const initialData = sortedData.slice(0, 10);
 
     let currentItem = itemName;
@@ -118,6 +118,7 @@ function visualizeApproximateItem(itemName){
     const chartData = initialData.map(item => item.harga_rata_rata);
 
     slider.min = 1;
+    slider.value = 10;
     slider.max = sortedData.length;
 
     const chart = new Chart(approximateHorizontalChartContext, {
@@ -166,28 +167,29 @@ function visualizeApproximateItem(itemName){
     });
 
     async function updateData() {
-      const numBrands = slider.value;
+      let numBrands = slider.value;
       const order = sortType.value;
       sliderLabel.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
-  
-      let slicedData = itemData.slice(0, numBrands);
+
       if(currentItem !== itemType.value){
         currentItem = itemType.value;
         await fetchItemData(currentItem).then(newItemData => {
+          numBrands = 10;
           slider.value = 10;
           slider.max = newItemData.length;
-          slicedData = newItemData.slice(0, 10);
+          
+          sortedData = newItemData;
           sliderLabel.textContent = `Jumlah merek yang ditampilkan: 10`;
-        })
-
-      }
-
-      const newData = order === 'ascending' ?
-        slicedData.sort((a, b) => a.harga_rata_rata - b.harga_rata_rata) :
-        slicedData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
-      
-      const labels = newData.map(item => item.merek);
-      const chartDataHarga = newData.map(item => item.harga_rata_rata);
+          })
+      } 
+          
+      sortedData = order === 'ascending' ?
+        sortedData.sort((a, b) => a.harga_rata_rata - b.harga_rata_rata) :
+        sortedData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
+      const slicedData = sortedData.slice(0, numBrands);
+          
+      const labels = slicedData.map(item => item.merek);
+      const chartDataHarga = slicedData.map(item => item.harga_rata_rata);
   
       chart.data.labels = labels;
       chart.data.datasets[0].label = `Harga Rata-Rata ${dataNames[currentItem]}`;
@@ -208,7 +210,7 @@ function visualizeTotalSales(itemName){
   const sortType = document.getElementById('approximateSalesSortType');
 
   fetchItemData(itemName).then(itemData => {
-    const sortedData = itemData.sort((a, b) => b.terjual - a.terjual);
+    let sortedData =  itemData.sort((a, b) => b.terjual - a.terjual);
     const initialData = sortedData.slice(0, 10);
 
     let currentItem = itemName;
@@ -216,6 +218,7 @@ function visualizeTotalSales(itemName){
     const chartDataTerjual = initialData.map(item => item.terjual);
 
     slider.min = 1;
+    slider.value = 10;
     slider.max = sortedData.length;
 
     const chart = new Chart(approximateSalesChartContext, {
@@ -261,25 +264,25 @@ function visualizeTotalSales(itemName){
       const numBrands = slider.value;
       const order = sortType.value;
       sliderLabel.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
-  
-      let slicedData = itemData.slice(0, numBrands);
+      
       if(currentItem !== itemType.value){
         currentItem = itemType.value;
         await fetchItemData(currentItem).then(newItemData => {
+          numBrands = 10;
           slider.value = 10;
           slider.max = newItemData.length;
-          slicedData = newItemData.slice(0, 10);
+          sortedData =  newItemData;
           sliderLabel.textContent = `Jumlah merek yang ditampilkan: 10`;
         })
-
       }
 
-      const newData = order === 'ascending' ?
-        slicedData.sort((a, b) => a.terjual - b.terjual) :
-        slicedData.sort((a, b) => b.terjual - a.terjual);
+      sortedData = order === 'ascending' ?
+        sortedData.sort((a, b) => a.terjual - b.terjual) :
+        sortedData.sort((a, b) => b.terjual - a.terjual);
+      const slicedData = sortedData.slice(0, numBrands);
       
-      const labels = newData.map(item => item.merek);
-      const chartDataTerjual = newData.map(item => item.terjual); 
+      const labels = slicedData.map(item => item.merek);
+      const chartDataTerjual = slicedData.map(item => item.terjual); 
 
       chart.data.labels = labels;
       chart.data.datasets[0].data = chartDataTerjual;
@@ -299,7 +302,7 @@ function visualizeApproximateAndTotalSales(itemName){
   const sortType = document.getElementById('approximateComparisonSortType');
 
   fetchItemData(itemName).then(itemData => {
-    const sortedData = itemData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
+    let sortedData = itemData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
     const initialData = sortedData.slice(0, 10);
 
     let currentItem = itemName;
@@ -308,6 +311,7 @@ function visualizeApproximateAndTotalSales(itemName){
     const chartDataTerjual = initialData.map(item => item.terjual);
 
     slider.min = 1;
+    slider.value = 10;
     slider.max = sortedData.length;
 
     const chart = new Chart(approximateComparisonChartContext, {
@@ -400,25 +404,25 @@ function visualizeApproximateAndTotalSales(itemName){
       const order = sortType.value;
       sliderLabel.textContent = `Jumlah merek yang ditampilkan: ${numBrands}`;
   
-      let slicedData = itemData.slice(0, numBrands);
       if(currentItem !== itemType.value){
         currentItem = itemType.value;
         await fetchItemData(currentItem).then(newItemData => {
+          numBrands = 10;
           slider.value = 10;
           slider.max = newItemData.length;
-          slicedData = newItemData.slice(0, 10);
+          sortedData =  newItemData;
           sliderLabel.textContent = `Jumlah merek yang ditampilkan: 10`;
-        })
-
+        })  
       }
+          
+      sortedData = order === 'ascending' ?
+        sortedData.sort((a, b) => a.harga_rata_rata - b.harga_rata_rata) :
+        sortedData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
+      const slicedData = sortedData.slice(0, numBrands);
 
-      const newData = order === 'ascending' ?
-        slicedData.sort((a, b) => a.harga_rata_rata - b.harga_rata_rata) :
-        slicedData.sort((a, b) => b.harga_rata_rata - a.harga_rata_rata);
-      
-      const labels = newData.map(item => item.merek);
-      const chartDataHarga = newData.map(item => item.harga_rata_rata);
-      const chartDataTerjual = newData.map(item => item.terjual); 
+      const labels = slicedData.map(item => item.merek);
+      const chartDataHarga = slicedData.map(item => item.harga_rata_rata);
+      const chartDataTerjual = slicedData.map(item => item.terjual); 
 
       chart.data.labels = labels;
       chart.data.datasets[0].data = chartDataHarga;
